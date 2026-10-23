@@ -1,0 +1,558 @@
+{
+  "status": "all finite diagnostics passed",
+  "scope": "Rooted band heights, including coupled parameter blocks and several odd bands. Geometry is justified separately by the explicit two-block sheet permutation. Independent raw block profiles are NOT asserted.",
+  "block_orbit_instances": 20,
+  "block_orbit_states": 5694,
+  "profile_checks": 6096,
+  "signed_folding_checks": 2480,
+  "matching_diagnostics": [
+    {
+      "lengths": [
+        1
+      ],
+      "max_total_k": 15,
+      "distinct_edges": 2580,
+      "witnesses": 2580,
+      "first_wave_checks": 96,
+      "domination_checks": 2584,
+      "zipper_disks": 96,
+      "zipper_triangles": 2032,
+      "complete_path_fibres": 46
+    },
+    {
+      "lengths": [
+        2
+      ],
+      "max_total_k": 15,
+      "distinct_edges": 5064,
+      "witnesses": 5064,
+      "first_wave_checks": 96,
+      "domination_checks": 5072,
+      "zipper_disks": 96,
+      "zipper_triangles": 4064,
+      "complete_path_fibres": 46
+    },
+    {
+      "lengths": [
+        3
+      ],
+      "max_total_k": 15,
+      "distinct_edges": 7548,
+      "witnesses": 7548,
+      "first_wave_checks": 96,
+      "domination_checks": 7560,
+      "zipper_disks": 96,
+      "zipper_triangles": 6096,
+      "complete_path_fibres": 46
+    }
+  ],
+  "transport_diagnostics": {
+    "local_ordered_transport_cases": 49714,
+    "one_odd_middle_sheet_augmentations": 17794
+  },
+  "height_diagnostics": [
+    {
+      "large": [
+        0,
+        1,
+        2
+      ],
+      "odd": [
+        0
+      ],
+      "root": 0,
+      "max_total_k": 10,
+      "distinct_edges": 13156,
+      "witnesses": 13156,
+      "domination_checks": 13188,
+      "signatures_at_N2": 1
+    },
+    {
+      "large": [
+        0,
+        2,
+        3
+      ],
+      "odd": [
+        2
+      ],
+      "root": 2,
+      "max_total_k": 10,
+      "distinct_edges": 25600,
+      "witnesses": 25600,
+      "domination_checks": 25660,
+      "signatures_at_N2": 1
+    },
+    {
+      "large": [
+        0,
+        1,
+        2
+      ],
+      "odd": [
+        0,
+        2
+      ],
+      "root": 0,
+      "max_total_k": 10,
+      "distinct_edges": 1532,
+      "witnesses": 1532,
+      "domination_checks": 1540,
+      "signatures_at_N2": 5
+    },
+    {
+      "large": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "odd": [
+        0,
+        2,
+        3
+      ],
+      "root": 0,
+      "max_total_k": 8,
+      "distinct_edges": 2640,
+      "witnesses": 2640,
+      "domination_checks": 2664,
+      "signatures_at_N2": 15
+    },
+    {
+      "large": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "odd": [
+        0
+      ],
+      "root": 0,
+      "max_total_k": 8,
+      "distinct_edges": 96020,
+      "witnesses": 96020,
+      "domination_checks": 96216,
+      "signatures_at_N2": 1
+    },
+    {
+      "large": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "odd": [
+        3
+      ],
+      "root": 3,
+      "max_total_k": 7,
+      "distinct_edges": 120496,
+      "witnesses": 120496,
+      "domination_checks": 120856,
+      "signatures_at_N2": 1
+    },
+    {
+      "large": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "odd": [
+        0,
+        2,
+        4
+      ],
+      "root": 2,
+      "max_total_k": 8,
+      "distinct_edges": 4400,
+      "witnesses": 4400,
+      "domination_checks": 4440,
+      "signatures_at_N2": 25
+    }
+  ],
+  "HT_original_table": {
+    "knot": "5/13",
+    "physical_pdf_page": 7,
+    "printed_page": 231,
+    "expected": [
+      7,
+      8,
+      4,
+      4,
+      8,
+      8,
+      12,
+      8
+    ],
+    "actual": [
+      7,
+      8,
+      4,
+      4,
+      8,
+      8,
+      12,
+      8
+    ]
+  },
+  "actual_multiblock_examples": [
+    {
+      "fraction": "74/103",
+      "carrier": [
+        -4,
+        -2,
+        4,
+        -3
+      ],
+      "two_sheet_types": 15
+    },
+    {
+      "fraction": "76/119",
+      "carrier": [
+        -3,
+        -4,
+        3,
+        -3
+      ],
+      "two_sheet_types": 27
+    }
+  ],
+  "D_family_m_checked": [
+    2,
+    100
+  ],
+  "B_family_m_checked": [
+    1,
+    100
+  ],
+  "family_first_rows": {
+    "D_2": {
+      "fraction": "16/39",
+      "rows": [
+        [
+          0,
+          [
+            2,
+            -3,
+            -2,
+            -2,
+            -3
+          ]
+        ],
+        [
+          0,
+          [
+            2,
+            -2,
+            3,
+            -2
+          ]
+        ],
+        [
+          0,
+          [
+            2,
+            -2,
+            4,
+            2
+          ]
+        ],
+        [
+          0,
+          [
+            3,
+            2,
+            4,
+            -2
+          ]
+        ],
+        [
+          0,
+          [
+            3,
+            2,
+            5,
+            2
+          ]
+        ],
+        [
+          1,
+          [
+            -2,
+            -4,
+            -2,
+            -2,
+            -3
+          ]
+        ],
+        [
+          1,
+          [
+            -2,
+            -3,
+            3,
+            -2
+          ]
+        ],
+        [
+          1,
+          [
+            -2,
+            -3,
+            4,
+            2
+          ]
+        ]
+      ]
+    },
+    "D_3": {
+      "fraction": "24/59",
+      "rows": [
+        [
+          0,
+          [
+            2,
+            -3,
+            -2,
+            -2,
+            -2,
+            -2,
+            -3
+          ]
+        ],
+        [
+          0,
+          [
+            2,
+            -2,
+            5,
+            -2
+          ]
+        ],
+        [
+          0,
+          [
+            2,
+            -2,
+            6,
+            2
+          ]
+        ],
+        [
+          0,
+          [
+            3,
+            2,
+            6,
+            -2
+          ]
+        ],
+        [
+          0,
+          [
+            3,
+            2,
+            7,
+            2
+          ]
+        ],
+        [
+          1,
+          [
+            -2,
+            -4,
+            -2,
+            -2,
+            -2,
+            -2,
+            -3
+          ]
+        ],
+        [
+          1,
+          [
+            -2,
+            -3,
+            5,
+            -2
+          ]
+        ],
+        [
+          1,
+          [
+            -2,
+            -3,
+            6,
+            2
+          ]
+        ]
+      ]
+    },
+    "B_1": {
+      "fraction": "12/29",
+      "rows": [
+        [
+          0,
+          [
+            2,
+            -3,
+            -2,
+            -3
+          ]
+        ],
+        [
+          0,
+          [
+            2,
+            -2,
+            2,
+            -2
+          ]
+        ],
+        [
+          0,
+          [
+            2,
+            -2,
+            3,
+            2
+          ]
+        ],
+        [
+          0,
+          [
+            3,
+            2,
+            3,
+            -2
+          ]
+        ],
+        [
+          0,
+          [
+            3,
+            2,
+            4,
+            2
+          ]
+        ],
+        [
+          1,
+          [
+            -2,
+            -4,
+            -2,
+            -3
+          ]
+        ],
+        [
+          1,
+          [
+            -2,
+            -3,
+            2,
+            -2
+          ]
+        ],
+        [
+          1,
+          [
+            -2,
+            -3,
+            3,
+            2
+          ]
+        ]
+      ]
+    },
+    "B_2": {
+      "fraction": "38/85",
+      "rows": [
+        [
+          0,
+          [
+            2,
+            -5,
+            -2,
+            -2,
+            -2,
+            -3
+          ]
+        ],
+        [
+          0,
+          [
+            2,
+            -4,
+            4,
+            -2
+          ]
+        ],
+        [
+          0,
+          [
+            2,
+            -4,
+            5,
+            2
+          ]
+        ],
+        [
+          0,
+          [
+            3,
+            2,
+            2,
+            2,
+            5,
+            -2
+          ]
+        ],
+        [
+          0,
+          [
+            3,
+            2,
+            2,
+            2,
+            6,
+            2
+          ]
+        ],
+        [
+          1,
+          [
+            -2,
+            -6,
+            -2,
+            -2,
+            -2,
+            -3
+          ]
+        ],
+        [
+          1,
+          [
+            -2,
+            -5,
+            4,
+            -2
+          ]
+        ],
+        [
+          1,
+          [
+            -2,
+            -5,
+            5,
+            2
+          ]
+        ]
+      ]
+    }
+  },
+  "script_sha256": "876783a8c716401e8ba97480b1900f78413bf184ce8ca650393b9532971f083d"
+}

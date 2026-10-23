@@ -1,0 +1,643 @@
+{
+  "status": "all arithmetic diagnostics passed",
+  "warning": "Finite diagnostics only; no geometric or homotopy certification.",
+  "family_m_checked": [
+    1,
+    200
+  ],
+  "family_first_rows": [
+    {
+      "m": 1,
+      "fraction": "7/19",
+      "rows": [
+        {
+          "r": 0,
+          "b": [
+            2,
+            -2,
+            -2,
+            -3
+          ],
+          "slope": 0,
+          "odd_count": 1,
+          "large_count": 1
+        },
+        {
+          "r": 0,
+          "b": [
+            3,
+            3,
+            -2
+          ],
+          "slope": 6,
+          "odd_count": 2,
+          "large_count": 2
+        },
+        {
+          "r": 0,
+          "b": [
+            3,
+            4,
+            2
+          ],
+          "slope": 10,
+          "odd_count": 1,
+          "large_count": 2
+        },
+        {
+          "r": 1,
+          "b": [
+            -2,
+            -3,
+            -2,
+            -3
+          ],
+          "slope": -4,
+          "odd_count": 2,
+          "large_count": 2
+        },
+        {
+          "r": 1,
+          "b": [
+            -2,
+            -2,
+            2,
+            -2
+          ],
+          "slope": 0,
+          "odd_count": 0,
+          "large_count": 0
+        },
+        {
+          "r": 1,
+          "b": [
+            -2,
+            -2,
+            3,
+            2
+          ],
+          "slope": 4,
+          "odd_count": 1,
+          "large_count": 1
+        }
+      ]
+    },
+    {
+      "m": 2,
+      "fraction": "13/35",
+      "rows": [
+        {
+          "r": 0,
+          "b": [
+            2,
+            -2,
+            -2,
+            -5
+          ],
+          "slope": 0,
+          "odd_count": 1,
+          "large_count": 1
+        },
+        {
+          "r": 0,
+          "b": [
+            3,
+            3,
+            -4
+          ],
+          "slope": 6,
+          "odd_count": 2,
+          "large_count": 3
+        },
+        {
+          "r": 0,
+          "b": [
+            3,
+            4,
+            2,
+            2,
+            2
+          ],
+          "slope": 14,
+          "odd_count": 1,
+          "large_count": 2
+        },
+        {
+          "r": 1,
+          "b": [
+            -2,
+            -3,
+            -2,
+            -5
+          ],
+          "slope": -4,
+          "odd_count": 2,
+          "large_count": 2
+        },
+        {
+          "r": 1,
+          "b": [
+            -2,
+            -2,
+            2,
+            -4
+          ],
+          "slope": 0,
+          "odd_count": 0,
+          "large_count": 1
+        },
+        {
+          "r": 1,
+          "b": [
+            -2,
+            -2,
+            3,
+            2,
+            2,
+            2
+          ],
+          "slope": 8,
+          "odd_count": 1,
+          "large_count": 1
+        }
+      ]
+    },
+    {
+      "m": 3,
+      "fraction": "19/51",
+      "rows": [
+        {
+          "r": 0,
+          "b": [
+            2,
+            -2,
+            -2,
+            -7
+          ],
+          "slope": 0,
+          "odd_count": 1,
+          "large_count": 1
+        },
+        {
+          "r": 0,
+          "b": [
+            3,
+            3,
+            -6
+          ],
+          "slope": 6,
+          "odd_count": 2,
+          "large_count": 3
+        },
+        {
+          "r": 0,
+          "b": [
+            3,
+            4,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "slope": 18,
+          "odd_count": 1,
+          "large_count": 2
+        },
+        {
+          "r": 1,
+          "b": [
+            -2,
+            -3,
+            -2,
+            -7
+          ],
+          "slope": -4,
+          "odd_count": 2,
+          "large_count": 2
+        },
+        {
+          "r": 1,
+          "b": [
+            -2,
+            -2,
+            2,
+            -6
+          ],
+          "slope": 0,
+          "odd_count": 0,
+          "large_count": 1
+        },
+        {
+          "r": 1,
+          "b": [
+            -2,
+            -2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "slope": 12,
+          "odd_count": 1,
+          "large_count": 1
+        }
+      ]
+    },
+    {
+      "m": 4,
+      "fraction": "25/67",
+      "rows": [
+        {
+          "r": 0,
+          "b": [
+            2,
+            -2,
+            -2,
+            -9
+          ],
+          "slope": 0,
+          "odd_count": 1,
+          "large_count": 1
+        },
+        {
+          "r": 0,
+          "b": [
+            3,
+            3,
+            -8
+          ],
+          "slope": 6,
+          "odd_count": 2,
+          "large_count": 3
+        },
+        {
+          "r": 0,
+          "b": [
+            3,
+            4,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "slope": 22,
+          "odd_count": 1,
+          "large_count": 2
+        },
+        {
+          "r": 1,
+          "b": [
+            -2,
+            -3,
+            -2,
+            -9
+          ],
+          "slope": -4,
+          "odd_count": 2,
+          "large_count": 2
+        },
+        {
+          "r": 1,
+          "b": [
+            -2,
+            -2,
+            2,
+            -8
+          ],
+          "slope": 0,
+          "odd_count": 0,
+          "large_count": 1
+        },
+        {
+          "r": 1,
+          "b": [
+            -2,
+            -2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "slope": 16,
+          "odd_count": 1,
+          "large_count": 1
+        }
+      ]
+    }
+  ],
+  "parameter_boxes": 81,
+  "parameter_box_states": 44283,
+  "reflection_matchings": 10100,
+  "farey_parent_coordinates": 21032,
+  "examples": {
+    "8/21": [
+      {
+        "r": 0,
+        "b": [
+          2,
+          -2,
+          -3,
+          -2
+        ],
+        "slope": -4,
+        "odd_count": 1,
+        "large_count": 1
+      },
+      {
+        "r": 0,
+        "b": [
+          2,
+          -2,
+          -2,
+          2
+        ],
+        "slope": 0,
+        "odd_count": 0,
+        "large_count": 0
+      },
+      {
+        "r": 0,
+        "b": [
+          3,
+          2,
+          -2,
+          -2
+        ],
+        "slope": 0,
+        "odd_count": 1,
+        "large_count": 1
+      },
+      {
+        "r": 0,
+        "b": [
+          3,
+          3,
+          3
+        ],
+        "slope": 6,
+        "odd_count": 3,
+        "large_count": 3
+      },
+      {
+        "r": 1,
+        "b": [
+          -2,
+          -3,
+          -3,
+          -2
+        ],
+        "slope": -8,
+        "odd_count": 2,
+        "large_count": 2
+      },
+      {
+        "r": 1,
+        "b": [
+          -2,
+          -3,
+          -2,
+          2
+        ],
+        "slope": -4,
+        "odd_count": 1,
+        "large_count": 1
+      },
+      {
+        "r": 1,
+        "b": [
+          -2,
+          -2,
+          2,
+          3
+        ],
+        "slope": 0,
+        "odd_count": 1,
+        "large_count": 1
+      }
+    ],
+    "12/29": [
+      {
+        "r": 0,
+        "b": [
+          2,
+          -3,
+          -2,
+          -3
+        ],
+        "slope": -4,
+        "odd_count": 2,
+        "large_count": 2
+      },
+      {
+        "r": 0,
+        "b": [
+          2,
+          -2,
+          2,
+          -2
+        ],
+        "slope": 0,
+        "odd_count": 0,
+        "large_count": 0
+      },
+      {
+        "r": 0,
+        "b": [
+          2,
+          -2,
+          3,
+          2
+        ],
+        "slope": 4,
+        "odd_count": 1,
+        "large_count": 1
+      },
+      {
+        "r": 0,
+        "b": [
+          3,
+          2,
+          3,
+          -2
+        ],
+        "slope": 4,
+        "odd_count": 2,
+        "large_count": 2
+      },
+      {
+        "r": 0,
+        "b": [
+          3,
+          2,
+          4,
+          2
+        ],
+        "slope": 8,
+        "odd_count": 1,
+        "large_count": 2
+      },
+      {
+        "r": 1,
+        "b": [
+          -2,
+          -4,
+          -2,
+          -3
+        ],
+        "slope": -8,
+        "odd_count": 1,
+        "large_count": 2
+      },
+      {
+        "r": 1,
+        "b": [
+          -2,
+          -3,
+          2,
+          -2
+        ],
+        "slope": -4,
+        "odd_count": 1,
+        "large_count": 1
+      },
+      {
+        "r": 1,
+        "b": [
+          -2,
+          -3,
+          3,
+          2
+        ],
+        "slope": 0,
+        "odd_count": 2,
+        "large_count": 2
+      }
+    ],
+    "16/39": [
+      {
+        "r": 0,
+        "b": [
+          2,
+          -3,
+          -2,
+          -2,
+          -3
+        ],
+        "slope": -10,
+        "odd_count": 2,
+        "large_count": 2
+      },
+      {
+        "r": 0,
+        "b": [
+          2,
+          -2,
+          3,
+          -2
+        ],
+        "slope": -4,
+        "odd_count": 1,
+        "large_count": 1
+      },
+      {
+        "r": 0,
+        "b": [
+          2,
+          -2,
+          4,
+          2
+        ],
+        "slope": 0,
+        "odd_count": 0,
+        "large_count": 1
+      },
+      {
+        "r": 0,
+        "b": [
+          3,
+          2,
+          4,
+          -2
+        ],
+        "slope": 0,
+        "odd_count": 1,
+        "large_count": 2
+      },
+      {
+        "r": 0,
+        "b": [
+          3,
+          2,
+          5,
+          2
+        ],
+        "slope": 4,
+        "odd_count": 2,
+        "large_count": 2
+      },
+      {
+        "r": 1,
+        "b": [
+          -2,
+          -4,
+          -2,
+          -2,
+          -3
+        ],
+        "slope": -14,
+        "odd_count": 1,
+        "large_count": 2
+      },
+      {
+        "r": 1,
+        "b": [
+          -2,
+          -3,
+          3,
+          -2
+        ],
+        "slope": -8,
+        "odd_count": 2,
+        "large_count": 2
+      },
+      {
+        "r": 1,
+        "b": [
+          -2,
+          -3,
+          4,
+          2
+        ],
+        "slope": -4,
+        "odd_count": 1,
+        "large_count": 2
+      }
+    ]
+  },
+  "six_boundary_witness": {
+    "fraction": "12/29",
+    "carrier": [
+      -2,
+      -3,
+      3,
+      2
+    ],
+    "integer_part": 1,
+    "construction": "frontier of a connected three-sheet surface guaranteed by HT Proposition 1(3)",
+    "boundary_count": 6,
+    "euler_characteristic": -18,
+    "genus": 7,
+    "caveat": "Not asserted to extend to a spanning vertex."
+  },
+  "script_sha256": "3edbdd34e645765438d44c1ec2a958af2b7c023a9291df891aae5191072580c2"
+}

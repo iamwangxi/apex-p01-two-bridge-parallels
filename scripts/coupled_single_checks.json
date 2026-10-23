@@ -1,0 +1,54 @@
+{
+  "carrier": "1+[-4,-2,4,-3]",
+  "knot": "74/103",
+  "odd_root": 3,
+  "large_bands": [
+    0,
+    2,
+    3
+  ],
+  "raw_parameter_tuples": 8127,
+  "graphs": [
+    {
+      "kmax": 2,
+      "vertices": 211,
+      "edges": 886,
+      "types_at_N2": 15,
+      "same_projection_rank_checks": 432,
+      "dominated_vertices_removed": 210,
+      "final_vertices": 1,
+      "all_closed_neighbourhood_inclusions_passed": true
+    },
+    {
+      "kmax": 3,
+      "vertices": 575,
+      "edges": 2746,
+      "types_at_N2": 15,
+      "same_projection_rank_checks": 1368,
+      "dominated_vertices_removed": 574,
+      "final_vertices": 1,
+      "all_closed_neighbourhood_inclusions_passed": true
+    },
+    {
+      "kmax": 4,
+      "vertices": 1799,
+      "edges": 8674,
+      "types_at_N2": 15,
+      "same_projection_rank_checks": 4632,
+      "dominated_vertices_removed": 1798,
+      "final_vertices": 1,
+      "all_closed_neighbourhood_inclusions_passed": true
+    },
+    {
+      "kmax": 5,
+      "vertices": 3647,
+      "edges": 18266,
+      "types_at_N2": 15,
+      "same_projection_rank_checks": 9672,
+      "dominated_vertices_removed": 3646,
+      "final_vertices": 1,
+      "all_closed_neighbourhood_inclusions_passed": true
+    }
+  ],
+  "status": "all assertions passed"
+}

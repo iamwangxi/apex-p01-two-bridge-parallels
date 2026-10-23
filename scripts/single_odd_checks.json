@@ -1,0 +1,8737 @@
+{
+  "methodology": "Independent implementation; HT geometry remains a mathematical input.",
+  "inputs_sha256": {
+    "proof/ordered-systems.md": "6b08e1429387e77ebfab30e9b901174e8a2f9523d1619b00a1553c9263107230",
+    "proof/odd-edges.md": "9e2be3e270e17f1f15d5238f4a8863a853bab2bec6c3df00519776c30e89f4fa",
+    "proof/band-heights.md": "1c3133ce738daa3843e298c84942d774050a696686e4e8ed52825ba50da6e6af"
+  },
+  "ht_move_orbits": [
+    {
+      "N": 1,
+      "states": 8,
+      "orbit_count": 3,
+      "orbit_sizes": {
+        "0": 4,
+        "-1": 2,
+        "1": 2
+      },
+      "printed_p230_count": 2
+    },
+    {
+      "N": 2,
+      "states": 27,
+      "orbit_count": 5,
+      "orbit_sizes": {
+        "0": 9,
+        "-1": 6,
+        "-2": 3,
+        "1": 6,
+        "2": 3
+      },
+      "printed_p230_count": 3
+    },
+    {
+      "N": 3,
+      "states": 64,
+      "orbit_count": 7,
+      "orbit_sizes": {
+        "0": 16,
+        "-1": 12,
+        "-2": 8,
+        "-3": 4,
+        "1": 12,
+        "2": 8,
+        "3": 4
+      },
+      "printed_p230_count": 4
+    },
+    {
+      "N": 4,
+      "states": 125,
+      "orbit_count": 9,
+      "orbit_sizes": {
+        "0": 25,
+        "-1": 20,
+        "-2": 15,
+        "-3": 10,
+        "-4": 5,
+        "1": 20,
+        "2": 15,
+        "3": 10,
+        "4": 5
+      },
+      "printed_p230_count": 5
+    },
+    {
+      "N": 5,
+      "states": 216,
+      "orbit_count": 11,
+      "orbit_sizes": {
+        "0": 36,
+        "-1": 30,
+        "-2": 24,
+        "-3": 18,
+        "-4": 12,
+        "-5": 6,
+        "1": 30,
+        "2": 24,
+        "3": 18,
+        "4": 12,
+        "5": 6
+      },
+      "printed_p230_count": 6
+    },
+    {
+      "N": 6,
+      "states": 343,
+      "orbit_count": 13,
+      "orbit_sizes": {
+        "0": 49,
+        "-1": 42,
+        "-2": 35,
+        "-3": 28,
+        "-4": 21,
+        "-5": 14,
+        "-6": 7,
+        "1": 42,
+        "2": 35,
+        "3": 28,
+        "4": 21,
+        "5": 14,
+        "6": 7
+      },
+      "printed_p230_count": 7
+    },
+    {
+      "N": 7,
+      "states": 512,
+      "orbit_count": 15,
+      "orbit_sizes": {
+        "0": 64,
+        "-1": 56,
+        "-2": 48,
+        "-3": 40,
+        "-4": 32,
+        "-5": 24,
+        "-6": 16,
+        "-7": 8,
+        "1": 56,
+        "2": 48,
+        "3": 40,
+        "4": 32,
+        "5": 24,
+        "6": 16,
+        "7": 8
+      },
+      "printed_p230_count": 8
+    },
+    {
+      "N": 8,
+      "states": 729,
+      "orbit_count": 17,
+      "orbit_sizes": {
+        "0": 81,
+        "-1": 72,
+        "-2": 63,
+        "-3": 54,
+        "-4": 45,
+        "-5": 36,
+        "-6": 27,
+        "-7": 18,
+        "-8": 9,
+        "1": 72,
+        "2": 63,
+        "3": 54,
+        "4": 45,
+        "5": 36,
+        "6": 27,
+        "7": 18,
+        "8": 9
+      },
+      "printed_p230_count": 9
+    },
+    {
+      "N": 9,
+      "states": 1000,
+      "orbit_count": 19,
+      "orbit_sizes": {
+        "0": 100,
+        "-1": 90,
+        "-2": 80,
+        "-3": 70,
+        "-4": 60,
+        "-5": 50,
+        "-6": 40,
+        "-7": 30,
+        "-8": 20,
+        "-9": 10,
+        "1": 90,
+        "2": 80,
+        "3": 70,
+        "4": 60,
+        "5": 50,
+        "6": 40,
+        "7": 30,
+        "8": 20,
+        "9": 10
+      },
+      "printed_p230_count": 10
+    },
+    {
+      "N": 10,
+      "states": 1331,
+      "orbit_count": 21,
+      "orbit_sizes": {
+        "0": 121,
+        "-1": 110,
+        "-2": 99,
+        "-3": 88,
+        "-4": 77,
+        "-5": 66,
+        "-6": 55,
+        "-7": 44,
+        "-8": 33,
+        "-9": 22,
+        "-10": 11,
+        "1": 110,
+        "2": 99,
+        "3": 88,
+        "4": 77,
+        "5": 66,
+        "6": 55,
+        "7": 44,
+        "8": 33,
+        "9": 22,
+        "10": 11
+      },
+      "printed_p230_count": 11
+    },
+    {
+      "N": 11,
+      "states": 1728,
+      "orbit_count": 23,
+      "orbit_sizes": {
+        "0": 144,
+        "-1": 132,
+        "-2": 120,
+        "-3": 108,
+        "-4": 96,
+        "-5": 84,
+        "-6": 72,
+        "-7": 60,
+        "-8": 48,
+        "-9": 36,
+        "-10": 24,
+        "-11": 12,
+        "1": 132,
+        "2": 120,
+        "3": 108,
+        "4": 96,
+        "5": 84,
+        "6": 72,
+        "7": 60,
+        "8": 48,
+        "9": 36,
+        "10": 24,
+        "11": 12
+      },
+      "printed_p230_count": 12
+    },
+    {
+      "N": 12,
+      "states": 2197,
+      "orbit_count": 25,
+      "orbit_sizes": {
+        "0": 169,
+        "-1": 156,
+        "-2": 143,
+        "-3": 130,
+        "-4": 117,
+        "-5": 104,
+        "-6": 91,
+        "-7": 78,
+        "-8": 65,
+        "-9": 52,
+        "-10": 39,
+        "-11": 26,
+        "-12": 13,
+        "1": 156,
+        "2": 143,
+        "3": 130,
+        "4": 117,
+        "5": 104,
+        "6": 91,
+        "7": 78,
+        "8": 65,
+        "9": 52,
+        "10": 39,
+        "11": 26,
+        "12": 13
+      },
+      "printed_p230_count": 13
+    }
+  ],
+  "ordered_systems": {
+    "raw_parameter_tuples": 4355,
+    "odd_N_tuples": 1800,
+    "coexistence_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "words": {
+      "1": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ]
+      },
+      "2": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3
+        ],
+        "4": [
+          4
+        ]
+      },
+      "3": {
+        "0": [
+          0,
+          0
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          2,
+          1
+        ],
+        "4": [
+          3,
+          1
+        ],
+        "5": [
+          3,
+          2
+        ],
+        "6": [
+          4,
+          2
+        ]
+      },
+      "4": {
+        "0": [
+          0,
+          0
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          2
+        ],
+        "4": [
+          2,
+          2
+        ],
+        "5": [
+          3,
+          2
+        ],
+        "6": [
+          3,
+          3
+        ],
+        "7": [
+          3,
+          4
+        ],
+        "8": [
+          4,
+          4
+        ]
+      },
+      "5": {
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "1": [
+          1,
+          0,
+          0
+        ],
+        "2": [
+          1,
+          1,
+          0
+        ],
+        "3": [
+          1,
+          1,
+          1
+        ],
+        "4": [
+          1,
+          2,
+          1
+        ],
+        "5": [
+          2,
+          2,
+          1
+        ],
+        "6": [
+          3,
+          2,
+          1
+        ],
+        "7": [
+          3,
+          3,
+          1
+        ],
+        "8": [
+          3,
+          3,
+          2
+        ],
+        "9": [
+          3,
+          4,
+          2
+        ],
+        "10": [
+          4,
+          4,
+          2
+        ]
+      },
+      "6": {
+        "0": [
+          0,
+          0,
+          0
+        ],
+        "1": [
+          1,
+          0,
+          0
+        ],
+        "2": [
+          1,
+          1,
+          0
+        ],
+        "3": [
+          1,
+          1,
+          1
+        ],
+        "4": [
+          1,
+          1,
+          2
+        ],
+        "5": [
+          1,
+          2,
+          2
+        ],
+        "6": [
+          2,
+          2,
+          2
+        ],
+        "7": [
+          3,
+          2,
+          2
+        ],
+        "8": [
+          3,
+          3,
+          2
+        ],
+        "9": [
+          3,
+          3,
+          3
+        ],
+        "10": [
+          3,
+          3,
+          4
+        ],
+        "11": [
+          3,
+          4,
+          4
+        ],
+        "12": [
+          4,
+          4,
+          4
+        ]
+      },
+      "7": {
+        "0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "2": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "3": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "5": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "6": [
+          1,
+          2,
+          2,
+          1
+        ],
+        "7": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "8": [
+          3,
+          2,
+          2,
+          1
+        ],
+        "9": [
+          3,
+          3,
+          2,
+          1
+        ],
+        "10": [
+          3,
+          3,
+          3,
+          1
+        ],
+        "11": [
+          3,
+          3,
+          3,
+          2
+        ],
+        "12": [
+          3,
+          3,
+          4,
+          2
+        ],
+        "13": [
+          3,
+          4,
+          4,
+          2
+        ],
+        "14": [
+          4,
+          4,
+          4,
+          2
+        ]
+      },
+      "8": {
+        "0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "2": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "3": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "4": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "5": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "6": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "7": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "8": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "9": [
+          3,
+          2,
+          2,
+          2
+        ],
+        "10": [
+          3,
+          3,
+          2,
+          2
+        ],
+        "11": [
+          3,
+          3,
+          3,
+          2
+        ],
+        "12": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "13": [
+          3,
+          3,
+          3,
+          4
+        ],
+        "14": [
+          3,
+          3,
+          4,
+          4
+        ],
+        "15": [
+          3,
+          4,
+          4,
+          4
+        ],
+        "16": [
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "9": {
+        "0": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "1": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "2": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "3": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "4": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "6": [
+          1,
+          1,
+          1,
+          2,
+          1
+        ],
+        "7": [
+          1,
+          1,
+          2,
+          2,
+          1
+        ],
+        "8": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ],
+        "9": [
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "10": [
+          3,
+          2,
+          2,
+          2,
+          1
+        ],
+        "11": [
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "12": [
+          3,
+          3,
+          3,
+          2,
+          1
+        ],
+        "13": [
+          3,
+          3,
+          3,
+          3,
+          1
+        ],
+        "14": [
+          3,
+          3,
+          3,
+          3,
+          2
+        ],
+        "15": [
+          3,
+          3,
+          3,
+          4,
+          2
+        ],
+        "16": [
+          3,
+          3,
+          4,
+          4,
+          2
+        ],
+        "17": [
+          3,
+          4,
+          4,
+          4,
+          2
+        ],
+        "18": [
+          4,
+          4,
+          4,
+          4,
+          2
+        ]
+      },
+      "10": {
+        "0": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "1": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "2": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "3": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "4": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "5": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "6": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "7": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "8": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "9": [
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "10": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "11": [
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "12": [
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "13": [
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "14": [
+          3,
+          3,
+          3,
+          3,
+          2
+        ],
+        "15": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "16": [
+          3,
+          3,
+          3,
+          3,
+          4
+        ],
+        "17": [
+          3,
+          3,
+          3,
+          4,
+          4
+        ],
+        "18": [
+          3,
+          3,
+          4,
+          4,
+          4
+        ],
+        "19": [
+          3,
+          4,
+          4,
+          4,
+          4
+        ],
+        "20": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    }
+  },
+  "finite_complexes": [
+    {
+      "kmax": 2,
+      "vertices": 47,
+      "edges": 102,
+      "triangles": 56,
+      "euler": 1,
+      "base_vertices_with_root": 7,
+      "base_edges_with_root": 6,
+      "complete_fibres": 6,
+      "max_simplex_dimension": 2,
+      "root_fans": 2,
+      "root_fan_triangles_each": 4,
+      "witnesses": 92,
+      "nonroot_panels": 4,
+      "first_wave_checks": 4,
+      "total_collapse": {
+        "triangle_edge_collapses": 56,
+        "edge_vertex_collapses": 46,
+        "remaining_vertices": 1,
+        "remaining_edges": 0,
+        "remaining_triangles": 0
+      },
+      "panels": [
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        }
+      ]
+    },
+    {
+      "kmax": 4,
+      "vertices": 235,
+      "edges": 562,
+      "triangles": 328,
+      "euler": 1,
+      "base_vertices_with_root": 19,
+      "base_edges_with_root": 18,
+      "complete_fibres": 18,
+      "max_simplex_dimension": 2,
+      "root_fans": 2,
+      "root_fan_triangles_each": 4,
+      "witnesses": 552,
+      "nonroot_panels": 16,
+      "first_wave_checks": 16,
+      "total_collapse": {
+        "triangle_edge_collapses": 328,
+        "edge_vertex_collapses": 234,
+        "remaining_vertices": 1,
+        "remaining_edges": 0,
+        "remaining_triangles": 0
+      },
+      "panels": [
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        }
+      ]
+    },
+    {
+      "kmax": 6,
+      "vertices": 603,
+      "edges": 1474,
+      "triangles": 872,
+      "euler": 1,
+      "base_vertices_with_root": 35,
+      "base_edges_with_root": 34,
+      "complete_fibres": 34,
+      "max_simplex_dimension": 2,
+      "root_fans": 2,
+      "root_fan_triangles_each": 4,
+      "witnesses": 1464,
+      "nonroot_panels": 32,
+      "first_wave_checks": 32,
+      "total_collapse": {
+        "triangle_edge_collapses": 872,
+        "edge_vertex_collapses": 602,
+        "remaining_vertices": 1,
+        "remaining_edges": 0,
+        "remaining_triangles": 0
+      },
+      "panels": [
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              6,
+              9
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              9
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              9
+            ],
+            [
+              6,
+              11
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        }
+      ]
+    },
+    {
+      "kmax": 8,
+      "vertices": 1479,
+      "edges": 3646,
+      "triangles": 2168,
+      "euler": 1,
+      "base_vertices_with_root": 63,
+      "base_edges_with_root": 62,
+      "complete_fibres": 62,
+      "max_simplex_dimension": 2,
+      "root_fans": 2,
+      "root_fan_triangles_each": 4,
+      "witnesses": 3636,
+      "nonroot_panels": 60,
+      "first_wave_checks": 60,
+      "total_collapse": {
+        "triangle_edge_collapses": 2168,
+        "edge_vertex_collapses": 1478,
+        "remaining_vertices": 1,
+        "remaining_edges": 0,
+        "remaining_triangles": 0
+      },
+      "panels": [
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              8,
+              3
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              8,
+              4
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              6,
+              9
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              8,
+              12
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              0
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              1
+            ],
+            [
+              7,
+              5
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              12
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              0
+            ],
+            [
+              8,
+              1
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              2
+            ],
+            [
+              8,
+              6
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              3
+            ],
+            [
+              8,
+              9
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              5
+            ],
+            [
+              8,
+              14
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              1
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              4
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              5
+            ],
+            [
+              7,
+              9
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              6
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              9
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              1
+            ],
+            [
+              8,
+              2
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              3
+            ],
+            [
+              8,
+              5
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              6
+            ],
+            [
+              8,
+              10
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              8
+            ],
+            [
+              8,
+              13
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              9
+            ],
+            [
+              6,
+              11
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              0
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 25,
+            "remaining_edges": 24,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 25,
+            "remaining_edges": 24,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 25,
+            "remaining_edges": 24,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              13
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 25,
+            "remaining_edges": 24,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          "V": 62,
+          "E": 121,
+          "triangles": 60,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 60,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 29,
+            "remaining_edges": 28,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              7,
+              6
+            ],
+            [
+              8,
+              7
+            ]
+          ],
+          "V": 62,
+          "E": 121,
+          "triangles": 60,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 60,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 29,
+            "remaining_edges": 28,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              7,
+              7
+            ],
+            [
+              8,
+              8
+            ]
+          ],
+          "V": 62,
+          "E": 121,
+          "triangles": 60,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 60,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 29,
+            "remaining_edges": 28,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              7,
+              13
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "V": 62,
+          "E": 121,
+          "triangles": 60,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 60,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 29,
+            "remaining_edges": 28,
+            "remaining_triangles": 0
+          }
+        }
+      ]
+    },
+    {
+      "kmax": 10,
+      "vertices": 2579,
+      "edges": 6362,
+      "triangles": 3784,
+      "euler": 1,
+      "base_vertices_with_root": 91,
+      "base_edges_with_root": 90,
+      "complete_fibres": 90,
+      "max_simplex_dimension": 2,
+      "root_fans": 2,
+      "root_fan_triangles_each": 4,
+      "witnesses": 6352,
+      "nonroot_panels": 88,
+      "first_wave_checks": 88,
+      "total_collapse": {
+        "triangle_edge_collapses": 3784,
+        "edge_vertex_collapses": 2578,
+        "remaining_vertices": 1,
+        "remaining_edges": 0,
+        "remaining_triangles": 0
+      },
+      "panels": [
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              8,
+              3
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              8,
+              4
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              10,
+              4
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              0
+            ],
+            [
+              10,
+              5
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "V": 14,
+          "E": 25,
+          "triangles": 12,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 12,
+            "edge_vertex_collapses": 9,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              6,
+              9
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              8,
+              12
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              10,
+              14
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              1,
+              1
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 5,
+            "remaining_edges": 4,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              0
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              0
+            ],
+            [
+              9,
+              2
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 37,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              1
+            ],
+            [
+              7,
+              5
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              1
+            ],
+            [
+              9,
+              6
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 37,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              2
+            ],
+            [
+              9,
+              11
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 37,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "V": 22,
+          "E": 41,
+          "triangles": 20,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 20,
+            "edge_vertex_collapses": 13,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              12
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              2,
+              3
+            ],
+            [
+              9,
+              15
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 37,
+            "remaining_vertices": 9,
+            "remaining_edges": 8,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              0
+            ],
+            [
+              8,
+              1
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              0
+            ],
+            [
+              10,
+              1
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              2
+            ],
+            [
+              8,
+              6
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              2
+            ],
+            [
+              10,
+              8
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              3
+            ],
+            [
+              8,
+              9
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              3
+            ],
+            [
+              10,
+              11
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "V": 30,
+          "E": 57,
+          "triangles": 28,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 28,
+            "edge_vertex_collapses": 17,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              5
+            ],
+            [
+              8,
+              14
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              3,
+              5
+            ],
+            [
+              10,
+              18
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 13,
+            "remaining_edges": 12,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              1
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              1
+            ],
+            [
+              9,
+              3
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 37,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              2
+            ],
+            [
+              7,
+              4
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              2
+            ],
+            [
+              9,
+              5
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 37,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              4
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              5
+            ],
+            [
+              7,
+              9
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              5
+            ],
+            [
+              9,
+              12
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 37,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              6
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              6
+            ],
+            [
+              9,
+              14
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 37,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              9
+            ]
+          ],
+          "V": 38,
+          "E": 73,
+          "triangles": 36,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 36,
+            "edge_vertex_collapses": 21,
+            "remaining_vertices": 17,
+            "remaining_edges": 16,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              1
+            ],
+            [
+              8,
+              2
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              3
+            ],
+            [
+              8,
+              5
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              6
+            ],
+            [
+              8,
+              10
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              8
+            ],
+            [
+              8,
+              13
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              5,
+              9
+            ],
+            [
+              6,
+              11
+            ]
+          ],
+          "V": 46,
+          "E": 89,
+          "triangles": 44,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 44,
+            "edge_vertex_collapses": 25,
+            "remaining_vertices": 21,
+            "remaining_edges": 20,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              0
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 25,
+            "remaining_edges": 24,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 25,
+            "remaining_edges": 24,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 25,
+            "remaining_edges": 24,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              13
+            ]
+          ],
+          "V": 54,
+          "E": 105,
+          "triangles": 52,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 52,
+            "edge_vertex_collapses": 29,
+            "remaining_vertices": 25,
+            "remaining_edges": 24,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          "V": 62,
+          "E": 121,
+          "triangles": 60,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 60,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 29,
+            "remaining_edges": 28,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              7,
+              2
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "V": 70,
+          "E": 137,
+          "triangles": 68,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 68,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 29,
+            "remaining_edges": 28,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              7,
+              4
+            ],
+            [
+              10,
+              6
+            ]
+          ],
+          "V": 70,
+          "E": 137,
+          "triangles": 68,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 68,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 29,
+            "remaining_edges": 28,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              7,
+              6
+            ],
+            [
+              8,
+              7
+            ]
+          ],
+          "V": 62,
+          "E": 121,
+          "triangles": 60,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 60,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 29,
+            "remaining_edges": 28,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              7,
+              7
+            ],
+            [
+              8,
+              8
+            ]
+          ],
+          "V": 62,
+          "E": 121,
+          "triangles": 60,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 60,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 29,
+            "remaining_edges": 28,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              13
+            ]
+          ],
+          "V": 70,
+          "E": 137,
+          "triangles": 68,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 68,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 29,
+            "remaining_edges": 28,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              7,
+              11
+            ],
+            [
+              10,
+              16
+            ]
+          ],
+          "V": 70,
+          "E": 137,
+          "triangles": 68,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 68,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 29,
+            "remaining_edges": 28,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              7,
+              13
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "V": 62,
+          "E": 121,
+          "triangles": 60,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 60,
+            "edge_vertex_collapses": 33,
+            "remaining_vertices": 29,
+            "remaining_edges": 28,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              8,
+              0
+            ],
+            [
+              9,
+              0
+            ]
+          ],
+          "V": 70,
+          "E": 137,
+          "triangles": 68,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 68,
+            "edge_vertex_collapses": 37,
+            "remaining_vertices": 33,
+            "remaining_edges": 32,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              8,
+              7
+            ],
+            [
+              9,
+              8
+            ]
+          ],
+          "V": 70,
+          "E": 137,
+          "triangles": 68,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 68,
+            "edge_vertex_collapses": 37,
+            "remaining_vertices": 33,
+            "remaining_edges": 32,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              9
+            ]
+          ],
+          "V": 70,
+          "E": 137,
+          "triangles": 68,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 68,
+            "edge_vertex_collapses": 37,
+            "remaining_vertices": 33,
+            "remaining_edges": 32,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              8,
+              15
+            ],
+            [
+              9,
+              17
+            ]
+          ],
+          "V": 70,
+          "E": 137,
+          "triangles": 68,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 68,
+            "edge_vertex_collapses": 37,
+            "remaining_vertices": 33,
+            "remaining_edges": 32,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              9,
+              0
+            ],
+            [
+              10,
+              0
+            ]
+          ],
+          "V": 78,
+          "E": 153,
+          "triangles": 76,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 76,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 37,
+            "remaining_edges": 36,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              9,
+              8
+            ],
+            [
+              10,
+              9
+            ]
+          ],
+          "V": 78,
+          "E": 153,
+          "triangles": 76,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 76,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 37,
+            "remaining_edges": 36,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              9,
+              9
+            ],
+            [
+              10,
+              10
+            ]
+          ],
+          "V": 78,
+          "E": 153,
+          "triangles": 76,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 76,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 37,
+            "remaining_edges": 36,
+            "remaining_triangles": 0
+          }
+        },
+        {
+          "base_edge": [
+            [
+              9,
+              17
+            ],
+            [
+              10,
+              19
+            ]
+          ],
+          "V": 78,
+          "E": 153,
+          "triangles": 76,
+          "euler": 1,
+          "collapse_to_parent_fibre": {
+            "triangle_edge_collapses": 76,
+            "edge_vertex_collapses": 41,
+            "remaining_vertices": 37,
+            "remaining_edges": 36,
+            "remaining_triangles": 0
+          }
+        }
+      ]
+    }
+  ],
+  "descent": {
+    "kmax": 12,
+    "lower_neighbours": 4252,
+    "different_projection_domination_checks": 6412
+  },
+  "d_family": [
+    {
+      "m": 2,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -14,
+        -10,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 3,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -18,
+        -14,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 4,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -22,
+        -18,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 5,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -26,
+        -22,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 6,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -30,
+        -26,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 7,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -34,
+        -30,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 8,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -38,
+        -34,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 9,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -42,
+        -38,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 10,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -46,
+        -42,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 11,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -50,
+        -46,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 12,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -54,
+        -50,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 13,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -58,
+        -54,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 14,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -62,
+        -58,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 15,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -66,
+        -62,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 16,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -70,
+        -66,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 17,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -74,
+        -70,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 18,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -78,
+        -74,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 19,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -82,
+        -78,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 20,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -86,
+        -82,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 21,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -90,
+        -86,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 22,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -94,
+        -90,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 23,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -98,
+        -94,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 24,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -102,
+        -98,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 25,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -106,
+        -102,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 26,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -110,
+        -106,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 27,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -114,
+        -110,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 28,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -118,
+        -114,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 29,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -122,
+        -118,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 30,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -126,
+        -122,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 31,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -130,
+        -126,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 32,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -134,
+        -130,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 33,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -138,
+        -134,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 34,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -142,
+        -138,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 35,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -146,
+        -142,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 36,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -150,
+        -146,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 37,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -154,
+        -150,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 38,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -158,
+        -154,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 39,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -162,
+        -158,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 40,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -166,
+        -162,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 41,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -170,
+        -166,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 42,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -174,
+        -170,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 43,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -178,
+        -174,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 44,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -182,
+        -178,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 45,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -186,
+        -182,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 46,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -190,
+        -186,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 47,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -194,
+        -190,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 48,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -198,
+        -194,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 49,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -202,
+        -198,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 50,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -206,
+        -202,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 51,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -210,
+        -206,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 52,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -214,
+        -210,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 53,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -218,
+        -214,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 54,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -222,
+        -218,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 55,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -226,
+        -222,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 56,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -230,
+        -226,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 57,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -234,
+        -230,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 58,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -238,
+        -234,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 59,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -242,
+        -238,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 60,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -246,
+        -242,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 61,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -250,
+        -246,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 62,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -254,
+        -250,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 63,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -258,
+        -254,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 64,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -262,
+        -258,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 65,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -266,
+        -262,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 66,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -270,
+        -266,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 67,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -274,
+        -270,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 68,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -278,
+        -274,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 69,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -282,
+        -278,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 70,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -286,
+        -282,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 71,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -290,
+        -286,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 72,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -294,
+        -290,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 73,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -298,
+        -294,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 74,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -302,
+        -298,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 75,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -306,
+        -302,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 76,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -310,
+        -306,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 77,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -314,
+        -310,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 78,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -318,
+        -314,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 79,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -322,
+        -318,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 80,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -326,
+        -322,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 81,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -330,
+        -326,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 82,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -334,
+        -330,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 83,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -338,
+        -334,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 84,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -342,
+        -338,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 85,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -346,
+        -342,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 86,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -350,
+        -346,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 87,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -354,
+        -350,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 88,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -358,
+        -354,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 89,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -362,
+        -358,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 90,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -366,
+        -362,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 91,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -370,
+        -366,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 92,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -374,
+        -370,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 93,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -378,
+        -374,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 94,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -382,
+        -378,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 95,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -386,
+        -382,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 96,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -390,
+        -386,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 97,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -394,
+        -390,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 98,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -398,
+        -394,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 99,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -402,
+        -398,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 100,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -406,
+        -402,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 101,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -410,
+        -406,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 102,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -414,
+        -410,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 103,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -418,
+        -414,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 104,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -422,
+        -418,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 105,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -426,
+        -422,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 106,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -430,
+        -426,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 107,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -434,
+        -430,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 108,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -438,
+        -434,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 109,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -442,
+        -438,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 110,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -446,
+        -442,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 111,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -450,
+        -446,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 112,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -454,
+        -450,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 113,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -458,
+        -454,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 114,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -462,
+        -458,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 115,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -466,
+        -462,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 116,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -470,
+        -466,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 117,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -474,
+        -470,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 118,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -478,
+        -474,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 119,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -482,
+        -478,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 120,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -486,
+        -482,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 121,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -490,
+        -486,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 122,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -494,
+        -490,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 123,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -498,
+        -494,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 124,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -502,
+        -498,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 125,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -506,
+        -502,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 126,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -510,
+        -506,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 127,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -514,
+        -510,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 128,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -518,
+        -514,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 129,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -522,
+        -518,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 130,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -526,
+        -522,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 131,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -530,
+        -526,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 132,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -534,
+        -530,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 133,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -538,
+        -534,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 134,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -542,
+        -538,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 135,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -546,
+        -542,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 136,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -550,
+        -546,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 137,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -554,
+        -550,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 138,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -558,
+        -554,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 139,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -562,
+        -558,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 140,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -566,
+        -562,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 141,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -570,
+        -566,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 142,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -574,
+        -570,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 143,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -578,
+        -574,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 144,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -582,
+        -578,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 145,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -586,
+        -582,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 146,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -590,
+        -586,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 147,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -594,
+        -590,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 148,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -598,
+        -594,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 149,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -602,
+        -598,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 150,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -606,
+        -602,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 151,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -610,
+        -606,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 152,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -614,
+        -610,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 153,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -618,
+        -614,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 154,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -622,
+        -618,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 155,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -626,
+        -622,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 156,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -630,
+        -626,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 157,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -634,
+        -630,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 158,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -638,
+        -634,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 159,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -642,
+        -638,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 160,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -646,
+        -642,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 161,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -650,
+        -646,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 162,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -654,
+        -650,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 163,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -658,
+        -654,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 164,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -662,
+        -658,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 165,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -666,
+        -662,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 166,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -670,
+        -666,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 167,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -674,
+        -670,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 168,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -678,
+        -674,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 169,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -682,
+        -678,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 170,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -686,
+        -682,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 171,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -690,
+        -686,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 172,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -694,
+        -690,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 173,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -698,
+        -694,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 174,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -702,
+        -698,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 175,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -706,
+        -702,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 176,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -710,
+        -706,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 177,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -714,
+        -710,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 178,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -718,
+        -714,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 179,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -722,
+        -718,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 180,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -726,
+        -722,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 181,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -730,
+        -726,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 182,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -734,
+        -730,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 183,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -738,
+        -734,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 184,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -742,
+        -738,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 185,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -746,
+        -742,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 186,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -750,
+        -746,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 187,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -754,
+        -750,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 188,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -758,
+        -754,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 189,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -762,
+        -758,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 190,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -766,
+        -762,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 191,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -770,
+        -766,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 192,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -774,
+        -770,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 193,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -778,
+        -774,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 194,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -782,
+        -778,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 195,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -786,
+        -782,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 196,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -790,
+        -786,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 197,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -794,
+        -790,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 198,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -798,
+        -794,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 199,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -802,
+        -798,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "m": 200,
+      "expansion_count": 8,
+      "zero_carriers": 2,
+      "slopes": [
+        -806,
+        -802,
+        -8,
+        -4,
+        -4,
+        0,
+        0,
+        4
+      ]
+    }
+  ]
+}
