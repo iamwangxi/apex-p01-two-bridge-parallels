@@ -5,9 +5,9 @@
   ],
   "independence": "No author code imported. Raw rectangles, DSU folds, boundary-sign constraints, raw restrictions and full induced graph collapses.",
   "source_sha256": {
-    "proof/band-heights.md": "1c3133ce738daa3843e298c84942d774050a696686e4e8ed52825ba50da6e6af",
-    "proof/assembly-obstruction.md": "6e01f6bd8ea6ed5abdf17cec9410422f1fe64736ef03cce7a36ffb2fdf344647",
-    "proof/finite-contraction.md": "087340630b1f1622a4a8f8b235c1e4eca8ef9f4ae779988ecbb0225c2bc4a927",
+    "proof/band-heights.md": "d93d39f1fa7de754cac9b122d1d6728aa53531fd04623f424133e9e27dfcaf62",
+    "proof/assembly-obstruction.md": "6bbf28793d12e860f18e8b6c2b786f87fa5ed8fcf7187e3cffcf8f2c53eac138",
+    "proof/finite-contraction.md": "9f6be97aba70b43ea00611d343a4057a49b68c90ef27648d0220bb4658859b21",
     "proof/main-theorem.md": "95d5a505b0d49c706226bf9ccf72b2ccf2b7bb82978ea73604288e1f8625e41d"
   },
   "bounded_move_orbits": {
@@ -645,7 +645,7 @@
     }
   ],
   "source_files_unchanged": true,
-  "elapsed_seconds": 6.714,
+  "elapsed_seconds": 6.802,
   "script_sha256": "025dce26f7139113d9f0e31e9f4f229da6bc616b95172e9c3fdcdcd9d486889f",
   "status": "all independent finite checks passed"
 }

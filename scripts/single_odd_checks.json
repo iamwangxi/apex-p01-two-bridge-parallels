@@ -1,9 +1,9 @@
 {
   "methodology": "Independent implementation; HT geometry remains a mathematical input.",
   "inputs_sha256": {
-    "proof/ordered-systems.md": "6b08e1429387e77ebfab30e9b901174e8a2f9523d1619b00a1553c9263107230",
-    "proof/odd-edges.md": "9e2be3e270e17f1f15d5238f4a8863a853bab2bec6c3df00519776c30e89f4fa",
-    "proof/band-heights.md": "1c3133ce738daa3843e298c84942d774050a696686e4e8ed52825ba50da6e6af"
+    "proof/ordered-systems.md": "dffd5974be8ce7567b6078d964dd433c58117e64ca2d4a0f21de0bf4c71124c8",
+    "proof/odd-edges.md": "4ca70c66a8efebd6255d085b8f1558674e5cc005ae7dbc0b1aaec6b81605b79c",
+    "proof/band-heights.md": "d93d39f1fa7de754cac9b122d1d6728aa53531fd04623f424133e9e27dfcaf62"
   },
   "ht_move_orbits": [
     {

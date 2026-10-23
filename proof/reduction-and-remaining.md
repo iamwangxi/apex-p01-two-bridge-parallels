@@ -2,7 +2,7 @@
 
 [Contents](../README.md) · [Universal theorem](main-theorem.md) · [Scope](scope.md)
 
-Contractibility outside (P) is now proved for every nontrivial two-bridge companion, not deferred to a component-order or return hypothesis. The general carrier reduction is the decomposition in Theorem 1.2, proved in Theorem 12.4. Its component partitions and orientability are [§13](assembly-obstruction.md), its complete bounded move orbits are [§14](bounded-parameters.md), and the coupled joint order, allowable systems, odd-band labels and integer edge test are [§12.1–12.4](band-heights.md). The [general return lemma](boundary-returns.md) and [finite contraction](finite-contraction.md) close the remaining interfaces.
+Contractibility outside $`(P)`$ is now proved for every nontrivial two-bridge companion, not deferred to a component-order or return hypothesis. The general carrier reduction is the decomposition in Theorem 1.2, proved in Theorem 12.4. Its component partitions and orientability are [§13](assembly-obstruction.md), its complete bounded move orbits are [§14](bounded-parameters.md), and the coupled joint order, allowable systems, odd-band labels and integer edge test are [§12.1–12.4](band-heights.md). The [general return lemma](boundary-returns.md) and [finite contraction](finite-contraction.md) close the remaining interfaces.
 
 At $`16/39`$, the carrier $`[3,2,4,-2]`$ has five two-boundary genus-three types, not a single pure type. Their coexistence is the five-vertex path and their simultaneous ordered systems are [§15](ordered-systems.md). Its whole rooted sector is the two-dimensional tree of triangulated disks of [Theorem 9.2](one-odd-disks.md).
 
