@@ -1,0 +1,36 @@
+{
+  "result": "PASS",
+  "reflection_systems": 450,
+  "actual_component_restrictions": 1354,
+  "expanded_cable_systems": 854,
+  "odd_outer_orientation_obstructions": 294,
+  "framed_peripheral_patterns": 7650,
+  "horizontal_monodromy_coverings": 5740,
+  "glued_genus_checks": 17220,
+  "framed_normal_coordinate_checks": 22599,
+  "exact_examples": {
+    "cable_framing": 40,
+    "cable_piece_genus": 21,
+    "child_component_mergers": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "mixed_sum_framing": 4,
+    "mixed_sum_arity": 4,
+    "mixed_sum_genus": 5,
+    "fibred_obstruction_knot": "29/137",
+    "two_boundary_piece_genus": 5,
+    "four_boundary_piece_genus": 9
+  },
+  "limits": [
+    "Finite arithmetic only; not a proof of the universal theorems.",
+    "No test certifies essentiality, ordinary isotopy, chamber visibility,",
+    "the compression barrier, the analytic exchange package, or CW continuity."
+  ]
+}

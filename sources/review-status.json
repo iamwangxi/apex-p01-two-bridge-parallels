@@ -1,6 +1,5 @@
 {
   "status": "Accepted after one fresh-context AI adversarial review of each source argument; all specified proof repairs incorporated.",
-  "status_zh": "经一路全新上下文 AI 对抗复核成立",
   "review_counts": {
     "zero_framed": {
       "fatal": 0,
@@ -15,6 +14,11 @@
     "recursive_and_fibred": {
       "fatal": 0,
       "repairable": 1,
+      "presentation": 1
+    },
+    "framed_recursive_and_fibred": {
+      "fatal": 0,
+      "repairable": 0,
       "presentation": 1
     }
   },
@@ -49,11 +53,69 @@
       "author_diagnostic_sha256": "33a708c0e3fa5476ecf6f5b2d07d4917095e2db71f4d0f0a39bd5ba0b7b13ed7",
       "independent_diagnostic_sha256": "d242d3028b464df9b4473673b1c4ce548b53f063c013e17fbce2aa6f7363cc6c",
       "supplied_purity_repair_sha256": "02df62f8929a153aa34f691148a230b1f81a6113d32d16eefc9a7e261b2dd218"
+    },
+    {
+      "manuscript": "Framed recursive parallels and balanced doubles of fibred knots",
+      "manuscript_sha256": "a37d70a875c2bc23940fbbfa529921bf0e18e5bce4d58e53d687f9459f344264",
+      "fresh_context_adversarial_review_sha256": "840d41013f97fa30fdf573c5fc39a32f1a5b20eec286a95a351d8cf927c7879c",
+      "integrated_proof": "proof/framed-recursive-and-fibred.md",
+      "integrated_proof_sha256": "4e4ba16e5b08f80a889338f5e983722276eadf0850a01c99d3c9a7e69a053404",
+      "status": "Accepted; restricted HT plumbing-parameter types distinguished from large-band heights in standard band order",
+      "reviewed_claims": [
+        "All integer-framed parallels of the finite recursive class",
+        "All integer-framed balanced doubles of arbitrary nontrivial fibred knots",
+        "Exact separating-subcomplex reduction for arbitrary balanced zero-framed fibred clusters",
+        "All integer-framed nonbalanced parallels of arbitrary nontrivial fibred knots"
+      ],
+      "scope_limit": "No unrestricted contractibility assertion for balanced clusters of four or more parallels of arbitrary fibred knots.",
+      "author_diagnostic_sha256": "7e1a2bd3dc7918cd5f211581da6805938870dea3ee09818ffa49a990bea50d43",
+      "independent_diagnostic_sha256": "d0acb3baa11076536d996fe94ec9647893003213b0f9aa5d196a36ffaa42f180",
+      "barrier_exchange_review_supplement_sha256": "bca5abe93f85bee8209dd5efab71f2dbf7d39706a35654069c955f6d6f983d43",
+      "author_gate_sha256": "4690a9b2afbf839c58ac9c2c548a059e0070946ab34bbbfb6d384c04ece6eb69",
+      "presentation_correction": {
+        "restricted_plumbing_types": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "large_heights_in_standard_band_order": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      }
     }
   ],
   "base_submission": {
     "manuscript_sha256": "dc27bd2130b2d1b2f4dc030cb62c8b72a3d285616be1a59641bb6f840c736d0d",
     "fresh_context_adversarial_review_sha256": "4e470e399d841f8bf2cddf73757e9133b73ac5741a706d69990a8438e487eca3"
   },
-  "boundary": "Source arguments received the recorded reviews. Integration and supplied repairs were checked locally; no additional fresh-context integration review, human expert certification or proof-assistant certification is claimed."
+  "boundary": "Source arguments received the recorded reviews. Integration and supplied repairs were checked locally; no additional fresh-context integration review, human expert certification or proof-assistant certification is claimed.",
+  "integration": "All four source arguments have the recorded fresh-context reviews. This integration received local consistency, syntax, hash and diagnostic checks, not an additional independent review."
 }

@@ -10,7 +10,7 @@ python3 -B scripts/verify_package.py
 python3 -B scripts/run_all.py
 ```
 
-Each individual command with `--check` recomputes and compares its saved JSON or stdout snapshot without writing. The all-in-one verifier validates the **existing** manifest before running the eleven commands and again afterwards. It never regenerates evidence during acceptance. Omit `--check` to regenerate the outputs listed below. Every output is a sibling file in `scripts/`, resolved relative to the script rather than the working directory. `diagnostic_io.py` restricts new outputs to that directory and implements replay comparison; all saved values and stdout are deterministic, with no timestamps or elapsed-time fields. No comparison field is ignored. Script hashes and mathematical data are checked. No network or third-party dependencies are used.
+Each individual command with `--check` recomputes and compares its saved JSON or stdout snapshot without writing. The all-in-one verifier validates the **existing** manifest, then the four integrated proof/review bindings, before running the thirteen commands; it checks the manifest again afterwards. It never regenerates evidence during acceptance. Omit `--check` to regenerate the outputs listed below. Every output is a sibling file in `scripts/`, resolved relative to the script rather than the working directory. `diagnostic_io.py` restricts new outputs to that directory and implements replay comparison; all saved values and stdout are deterministic, with no timestamps or elapsed-time fields. No comparison field is ignored. Script hashes and mathematical data are checked. No network or third-party dependencies are used.
 
 ## Author's diagnostics
 
@@ -51,6 +51,18 @@ The exact replay snapshots give all counts and bounds. No new script imports ano
 
 ## Integrity and generation are separate
 
-`verify_package.py` checks manifest syntax, duplicate/unsafe entries, exact file coverage and SHA-256 **before** executing `run_all.py`. On a mismatch it exits without rewriting the manifest or any saved result. `run_all.py` actually executes all eleven `--check` commands; it does not trust an earlier PASS record. After any intentional generation, rebuild the manifest separately outside the repository, excluding `.DS_Store` and the manifest itself, then copy it into place. Acceptance is read-only.
+`verify_package.py` checks manifest syntax, duplicate/unsafe entries, exact file coverage and SHA-256, then validates all integrated-page digests in the review record **before** executing `run_all.py`. On a mismatch it exits without rewriting the manifest or any saved result. `run_all.py` actually executes all thirteen `--check` commands; it does not trust an earlier PASS record. After any intentional generation, rebuild the manifest separately outside the repository, excluding `.DS_Store` and the manifest itself, then copy it into place. Acceptance is read-only.
 
 The fibre-branch repair is a geometric proof in §10 of [the recursive/fibred page](../proof/recursive-and-fibred.md). No finite script claims to repair an isotopy-descent gap or prove its product lemma.
+
+
+## Framed recursive and balanced-fibred diagnostics
+
+Two further independent implementations are included and executed by both verification entry points:
+
+- `check_recursive_framed.py` writes `recursive_framed.txt`. It checks signed reflection systems and actual component restrictions, expanded cable descent including odd-outer orientation obstructions, framed peripheral classes, horizontal monodromy and genus formulas, and the exact framed recursive/fibred examples in [the proof](../proof/framed-recursive-and-fibred.md).
+- `check_recursive_framed_independent.py` writes `recursive_framed_independent.txt`. It builds every actual HT band vertex, core edge and interval plumbing edge before extracting components, restricts actual rectangles before rebuilding them, enumerates continuants by denominator growth without a length cutoff, and tests primitive cable homology classes without presupposing the one-outer/p-inner result. It independently distinguishes restricted plumbing parameters from large-band heights in band order. The examples include nonparallel child mergers, opposite-slope sums, the fibred shared-component obstruction and an alternating sum/cable construction.
+
+The independent implementation checks 21,414 raw band/square systems (20,854 orientable), 40,180 actual component reconstructions, 163,744 primitive cable lattice classes (2,862 integer-child classes), 3,526 annular-resonance exclusions, 2,688 horizontal pattern classes and 10,752 glued genera. Its exact examples give outer genus 21 at framing 40, genus 5 at framing 4, and genus 57 in the nested example at framing 36. The fibred obstruction has genuine two-boundary genus-five and four-boundary genus-nine HT pieces. These finite checks do not certify the compression barrier or exchange analysis; those are the text arguments of §§6–9.
+
+Both scripts retain their separate mathematical implementations and full reviewed finite ranges. They import only the shared deterministic stdout replay helper, read/write only their sibling snapshots, and take `--check` for byte-for-byte read-only acceptance. No time, machine path or random execution state is included in their output.

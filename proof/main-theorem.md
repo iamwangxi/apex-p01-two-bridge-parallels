@@ -26,9 +26,11 @@ Let $`\mathcal C`$ be the smallest class containing nontrivial two-bridge and to
 
 For each of the following ranges, the full cyclic complex and the original geometric complex strongly deformation retract onto the same taut cyclic complex:
 
-1. $`K`$ is any nontrivial two-bridge knot, with **any integer framing, any positive number of parallels and any orientations**.
-2. $`K\in\mathcal C`$, with **zero framing**, any positive number and any orientations.
-3. $`K`$ is any nontrivial **fibred knot**, with **zero framing** and **nonzero orientation sum $`d`$**.
+**(1)** $`K\in\mathcal C`$, with **every integer framing, every positive number of parallels and every orientation assignment**.
+
+**(2)** $`K`$ is any nontrivial **fibred knot**, with **every integer framing** and **nonzero orientation sum $`d`$**.
+
+**(3)** $`K`$ is any nontrivial **fibred knot**, with **two oppositely oriented parallels and every integer framing**.
 
 ```math
 X(L)\subseteq Y(L),\qquad
@@ -36,11 +38,20 @@ X(L)\subseteq Y(L),\qquad
 |X(L)|\simeq |Y(L)|\simeq *.
 ```
 
-Both arrows are strong deformation retractions, and their concatenation fixes $`MS(L)`$ pointwise. In range 1, if $`fd\ne0`$, the stronger equality $`X(L)=Y(L)=MS(L)`$ holds. It need not be a point: the precise point criterion is [the framed theorem, Theorem B](framed-clusters.md). In the balanced zero-framed range, $`MS(L)`$ is the pure pattern-annular cyclic subcomplex. At balanced nonzero framing for a two-bridge torus companion, annuli at the regular-fibre framing can also use the companion.
+Both arrows are strong deformation retractions, and their concatenation fixes $`MS(L)`$ pointwise. For ranges 1–2, when $`fd\ne0`$, every vertex is connected and taut, and
 
-**Proof and dependency map.** [Zero-framed clusters, Theorem A](zero-framed-clusters.md) proves range 1 with $`f=0`$: a circular envelope for one-boundary pieces and an ordinary rooted path-chamber closure for nonparallel multi-boundary systems. Its §9 specifies both the order and heights of stationary annular events. [Arbitrary framings, Theorem A](framed-clusters.md) proves the rest of range 1, with the corrected peripheral class and transverse return coordinate. [Recursive and fibred companions, Theorems A–B](recursive-and-fibred.md) proves ranges 2–3. Its §§3–7 establish actual whole-system reflection closure under sums and cables; §10 directly compactly lifts every component of a nonzero-class disjoint system and reads only its boundary count and genus, so no isotopy is descended from a cover. Each proof identifies its endpoint exactly as $`MS(L)`$ before applying [PS, Theorem 1.1, p.1490].
+```math
+X(L)=Y(L)=MS(L),\qquad
+\chi(S)=|d|(1-2g(K))-|fd|(n-1).
+```
 
-For every range, non-splitness follows from sphere cutting across incompressible tori (or the knot case for $`n=1`$). The proofs check the full vertex conventions, linking class and spanning boundary slopes. Hence the fixed public [CW, Part 7, Theorem D](../sources/bibliography.md#cw--component-wall-comparison), commit `f6f44253f2ed539a74bf4cfdc99fed299e386546`, gives the first arrow, without a tautness or graph-manifold hypothesis. Let $`R_D,H_D`$ be its retraction and strong deformation, and $`H_X`$ the second deformation. With $`\iota:|X|\hookrightarrow|Y|`$, set
+This equality need not mean a point. In balanced zero-framed ranges the endpoint is the pure pattern-annular cyclic subcomplex $`\mathcal A_X`$. In the recursive balanced branch at a top torus framing $`f=ab`$ or top cable framing $`f=pq`$, all vertices are annular and $`X=MS(L)`$; taut annuli can use the companion. For the zero-framed fibred double the endpoint is the single standard annulus vertex.
+
+**Proof and dependency map.** [Framed recursive parallels and fibred doubles, Theorems A–B and Corollary D](framed-recursive-and-fibred.md) proves all three ranges. Its §§3–5 retain actual slopes, whole-system reflection structure and ordinary hereditary roots at every finite slope, including horizontal cables merging nonparallel child pieces. Its §§6–9 establish the fibred dichotomy and the connected-sector compression barrier. The local multi-torus analytic exchange inputs are taken from the official competition paper [C]; its general-link conjecture is not assumed.
+
+The underlying [zero-framed cluster proof](zero-framed-clusters.md), [integer-framed two-bridge proof](framed-clusters.md) and [zero-framed recursive/nonbalanced fibred proof](recursive-and-fibred.md) supply the stated geometric interfaces. Their stationary-event order/heights and whole-system compact-lift repair are incorporated. Topological type is read from compact lifts; no upstairs isotopy is descended.
+
+For every range, non-splitness and actual boundary injections are checked before applying the fixed public [CW, Part 7, Theorem D](../sources/bibliography.md#cw--component-wall-comparison), commit `f6f44253f2ed539a74bf4cfdc99fed299e386546`. It gives the first arrow on the full, possibly disconnected vertex set, without a tautness or graph-manifold hypothesis. Let $`R_D,H_D`$ be its endpoint and strong deformation and let $`H_X`$ be the second deformation. With $`\iota:|X|\hookrightarrow|Y|`$, set
 
 ```math
 H_Y(y,t)=\begin{cases}
@@ -49,9 +60,21 @@ H_D(y,2t),&0\le t\le\tfrac12,\\
 \end{cases}
 ```
 
-Both formulas equal $`\iota R_D(y)`$ at the midpoint. The pasting lemma gives continuity and every point of $`MS(L)`$ is fixed throughout. PS contracts that endpoint. This proves the theorem.
+The formulas agree at $`\iota R_D(y)`$, are continuous in the weak/CW topology and fix $`MS(L)`$ throughout. The endpoint is identified as taut before [PS, Theorem 1.1] is applied to contract it.
 
-**Scope.** General Montesinos/arborescent companions, the balanced branch for arbitrary fibred companions outside range 2, and nonzero framings of recursive companions outside range 1 are not covered. The same nonzero-framing limitation applies to arbitrary fibred companions outside range 1. No arbitrary-link contractibility result is asserted. The explicit Farey, height and disk classifications below concern the two-opposite-parallel specialization of $`X`$, not the simplices of all these larger complexes.
+## Exact remaining balanced fibred problem
+
+For any nontrivial fibred $`K`$, with $`f=d=0`$ and arbitrary $`n`$, let $`X_{\mathrm{sep}}`$ be the induced cyclic subcomplex whose efficient companion cut is empty or consists only of separating pieces. Let $`Y_{\mathrm{sep}}`$ have those vertices and geometric simplices. [Theorem C](framed-recursive-and-fibred.md) proves
+
+```math
+MS(L)=\mathcal A_X,\qquad
+|X(L)|\searrow|X_{\mathrm{sep}}|,\qquad
+|Y_{\mathrm{sep}}|\searrow|X_{\mathrm{sep}}|.
+```
+
+The first retraction fixes $`X_{\mathrm{sep}}`$ pointwise. Thus the full balanced problem is equivalent to contractibility of that complete separating subcomplex. Theorem C does not assert its contractibility for arbitrary fibred knots with four or more actual components. In that range separating vertices can be disconnected and distinct vertices can share a whole actual-bearing component; the double's automatic barrier fails. [Section 7](framed-recursive-and-fibred.md) gives explicit sufficient hereditary chamber/root conditions, rather than assuming that a chamber tree is a path.
+
+**Scope.** General Montesinos/arborescent companions outside the proved fibred or recursive ranges, and arbitrary balanced fibred clusters with at least four components without the additional stated hypotheses, remain outside the contractibility theorem. Nonzero-framed balanced doubles of any nontrivial companion also follow directly from [C, Theorem D] and the comparison/cofibration argument in §9. No arbitrary-link contractibility theorem is asserted. The explicit Farey, height and disk classifications below concern two oppositely oriented zero-framed parallels, not all larger-cluster simplices.
 
 ## Detailed structure for two oppositely oriented zero-framed parallels
 

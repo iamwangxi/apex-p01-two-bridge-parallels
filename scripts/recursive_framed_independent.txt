@@ -1,0 +1,456 @@
+{
+  "result": "PASS",
+  "exact_examples": {
+    "cable_C23_K7_19_f40": {
+      "child_HT_rows": [
+        {
+          "orbit": [
+            0,
+            7
+          ],
+          "chi": -4,
+          "boundary_count": 2,
+          "restricted_plumbing": [
+            1,
+            0
+          ],
+          "large_heights_in_band_order": [
+            0,
+            1
+          ],
+          "genus": 2
+        },
+        {
+          "orbit": [
+            1,
+            6
+          ],
+          "chi": -4,
+          "boundary_count": 2,
+          "restricted_plumbing": [
+            1,
+            0
+          ],
+          "large_heights_in_band_order": [
+            0,
+            1
+          ],
+          "genus": 2
+        },
+        {
+          "orbit": [
+            2,
+            5
+          ],
+          "chi": -4,
+          "boundary_count": 2,
+          "restricted_plumbing": [
+            1,
+            0
+          ],
+          "large_heights_in_band_order": [
+            0,
+            1
+          ],
+          "genus": 2
+        },
+        {
+          "orbit": [
+            3,
+            4
+          ],
+          "chi": -4,
+          "boundary_count": 2,
+          "restricted_plumbing": [
+            0,
+            0
+          ],
+          "large_heights_in_band_order": [
+            0,
+            0
+          ],
+          "genus": 2
+        }
+      ],
+      "outer_rows": [
+        {
+          "outer_labels": [
+            0,
+            3
+          ],
+          "child_components": [
+            0,
+            3
+          ],
+          "chi": -42,
+          "genus": 21
+        },
+        {
+          "outer_labels": [
+            1,
+            2
+          ],
+          "child_components": [
+            1,
+            2
+          ],
+          "chi": -42,
+          "genus": 21
+        }
+      ]
+    },
+    "sum_K7_19_T2minus3_f4": {
+      "outer_partition": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "chi": -12,
+      "genus": 5
+    },
+    "fibred_K29_137": {
+      "orientation_double": [
+        {
+          "orbit": [
+            0,
+            1
+          ],
+          "chi": -10,
+          "boundary_count": 2,
+          "restricted_plumbing": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "large_heights_in_band_order": [
+            0,
+            0,
+            0
+          ],
+          "genus": 5
+        }
+      ],
+      "accepted_eight_sheet_system": [
+        {
+          "orbit": [
+            0,
+            3,
+            4,
+            7
+          ],
+          "chi": -20,
+          "boundary_count": 4,
+          "restricted_plumbing": [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "large_heights_in_band_order": [
+            1,
+            0,
+            1
+          ],
+          "genus": 9
+        },
+        {
+          "orbit": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "chi": -20,
+          "boundary_count": 4,
+          "restricted_plumbing": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "large_heights_in_band_order": [
+            0,
+            0,
+            1
+          ],
+          "genus": 9
+        }
+      ],
+      "shared_component_pair_chi": [
+        -20,
+        -10
+      ]
+    },
+    "extra_C32_sum_f36": {
+      "outer_boundary_count": 4,
+      "chi": -116,
+      "genus": 57
+    }
+  },
+  "carrier_enumeration": {
+    "7/19": {
+      "prefix_nodes": 382,
+      "carriers": [
+        {
+          "integer_part": 0,
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            -3
+          ],
+          "slope": 0
+        },
+        {
+          "integer_part": 0,
+          "coefficients": [
+            3,
+            3,
+            -2
+          ],
+          "slope": 6
+        },
+        {
+          "integer_part": 0,
+          "coefficients": [
+            3,
+            4,
+            2
+          ],
+          "slope": 10
+        },
+        {
+          "integer_part": 1,
+          "coefficients": [
+            -2,
+            -3,
+            -2,
+            -3
+          ],
+          "slope": -4
+        },
+        {
+          "integer_part": 1,
+          "coefficients": [
+            -2,
+            -2,
+            2,
+            -2
+          ],
+          "slope": 0
+        },
+        {
+          "integer_part": 1,
+          "coefficients": [
+            -2,
+            -2,
+            3,
+            2
+          ],
+          "slope": 4
+        }
+      ]
+    },
+    "29/137": {
+      "prefix_nodes": 35212,
+      "carriers": [
+        {
+          "integer_part": 0,
+          "coefficients": [
+            4,
+            -2,
+            -2,
+            -3,
+            -3,
+            -2
+          ],
+          "slope": 0
+        },
+        {
+          "integer_part": 0,
+          "coefficients": [
+            4,
+            -2,
+            -2,
+            -3,
+            -2,
+            2
+          ],
+          "slope": 4
+        },
+        {
+          "integer_part": 0,
+          "coefficients": [
+            4,
+            -2,
+            -2,
+            -2,
+            2,
+            3
+          ],
+          "slope": 8
+        },
+        {
+          "integer_part": 0,
+          "coefficients": [
+            5,
+            3,
+            -2,
+            -3,
+            -2
+          ],
+          "slope": 6
+        },
+        {
+          "integer_part": 0,
+          "coefficients": [
+            5,
+            3,
+            -2,
+            -2,
+            2
+          ],
+          "slope": 10
+        },
+        {
+          "integer_part": 0,
+          "coefficients": [
+            5,
+            4,
+            2,
+            -2,
+            -2
+          ],
+          "slope": 10
+        },
+        {
+          "integer_part": 0,
+          "coefficients": [
+            5,
+            4,
+            3,
+            3
+          ],
+          "slope": 16
+        },
+        {
+          "integer_part": 1,
+          "coefficients": [
+            -2,
+            -2,
+            -2,
+            -3,
+            -2,
+            -3,
+            -3,
+            -2
+          ],
+          "slope": -8
+        },
+        {
+          "integer_part": 1,
+          "coefficients": [
+            -2,
+            -2,
+            -2,
+            -3,
+            -2,
+            -3,
+            -2,
+            2
+          ],
+          "slope": -4
+        },
+        {
+          "integer_part": 1,
+          "coefficients": [
+            -2,
+            -2,
+            -2,
+            -3,
+            -2,
+            -2,
+            2,
+            3
+          ],
+          "slope": 0
+        },
+        {
+          "integer_part": 1,
+          "coefficients": [
+            -2,
+            -2,
+            -2,
+            -2,
+            2,
+            -2,
+            -3,
+            -2
+          ],
+          "slope": -4
+        },
+        {
+          "integer_part": 1,
+          "coefficients": [
+            -2,
+            -2,
+            -2,
+            -2,
+            2,
+            -2,
+            -2,
+            2
+          ],
+          "slope": 0
+        },
+        {
+          "integer_part": 1,
+          "coefficients": [
+            -2,
+            -2,
+            -2,
+            -2,
+            3,
+            2,
+            -2,
+            -2
+          ],
+          "slope": 0
+        },
+        {
+          "integer_part": 1,
+          "coefficients": [
+            -2,
+            -2,
+            -2,
+            -2,
+            3,
+            3,
+            3
+          ],
+          "slope": 6
+        }
+      ]
+    }
+  },
+  "raw_HT_diagnostics": {
+    "raw_band_square_systems": 21414,
+    "orientable_systems": 20854,
+    "actual_component_reconstructions": 40180
+  },
+  "lattice_diagnostics": {
+    "primitive_cable_lattice_classes": 163744,
+    "integer_child_classes": 2862,
+    "annular_resonance_exclusions": 3526,
+    "horizontal_pattern_classes": 2688,
+    "glued_genus_checks": 10752
+  },
+  "limits": "Finite arithmetic and actual prescribed gluing graphs only; no topology, isotopy, analysis, barrier, or continuity certification."
+}

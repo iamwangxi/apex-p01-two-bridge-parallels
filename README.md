@@ -1,8 +1,8 @@
 # Incompressible spanning surface complexes of parallel clusters
 
-For every nontrivial two-bridge knot, **all parallel clusters, with any integer framing, any positive number of components and any orientations**, have both their cyclic complex $`X(L)`$ and the original geometric complex $`Y(L)=IS(L)`$ strongly deformation retract onto $`MS(L)`$, and hence are contractible. The same conclusion holds for **zero-framed** parallels of every knot obtained from nontrivial two-bridge and torus knots by finitely many connected sums and cables, and for **zero-framed** parallels of any nontrivial fibred knot when the orientation sum is nonzero.
+For every knot obtained from nontrivial two-bridge and torus knots by finitely many connected sums and cables, **every integer-framed parallel cluster, with every positive number of components and every orientation assignment**, has its full cyclic complex and original geometric complex strongly deformation retract onto the taut cyclic complex. The same conclusion holds for **arbitrary nontrivial fibred knots at every integer framing**, both for nonzero orientation sum and for two oppositely oriented parallels. All these complexes are contractible.
 
-[中文说明](README.zh-CN.md) · [Main theorem and general objects](proof/main-theorem.md) · [Scope](proof/scope.md) · [Checked bibliography](sources/bibliography.md) · [Review status and SHA-256](sources/review-status.md)
+[Chinese-language README](README.zh-CN.md) · [Main theorem and general objects](proof/main-theorem.md) · [Scope](proof/scope.md) · [Checked bibliography](sources/bibliography.md) · [Review status and SHA-256](sources/review-status.md)
 
 ## Main statement and proof pages
 
@@ -13,15 +13,16 @@ X(L)\subseteq Y(L),\qquad
 |Y(L)|\searrow |X(L)|\searrow |MS(L)|.
 ```
 
-Both arrows are strong deformation retractions. $`MS(L)`$ is the taut **cyclic** subcomplex, contractible by [PS, Theorem 1.1]. For two-bridge companions, $`fd\ne0`$ gives the stronger equality $`X=Y=MS(L)`$; this need not be a single vertex. For example the two coherently oriented framing-one parallels of $`K_{4/15}`$ have distinct genus-two vertices.
+Both arrows are strong deformation retractions. $`MS(L)`$ is the taut **cyclic** subcomplex, contractible by [PS, Theorem 1.1]. For recursive or arbitrary fibred companions, $`fd\ne0`$ gives the stronger equality $`X=Y=MS(L)`$; this need not be a single vertex. For example the two coherently oriented framing-one parallels of $`K_{4/15}`$ have distinct genus-two vertices.
 
 - [Zero-framed clusters](proof/zero-framed-clusters.md): one-boundary circular envelopes; nonparallel multi-boundary systems with path-shaped complementary regions; ordinary roots, exhaustive closure and face-compatible prisms.
 - [Arbitrary integer framings](proof/framed-clusters.md): the actual linking-corrected spanning slopes, nonzero fibre evaluation, balanced nonzero slopes, ordinary transverse winding and the torus-annulus exception.
 - [Recursive and fibred companions](proof/recursive-and-fibred.md): whole-system reflection closure under connected sum and cabling, followed by the path closure; direct compact-lift purity for an entire nonzero-class system in a fibred exterior.
+- [Framed recursive parallels and fibred doubles](proof/framed-recursive-and-fibred.md): all integer framings of the recursive class; the balanced-double compression barrier and connected-sector analytic exchange; the exact separating-subcomplex reduction for arbitrary balanced zero-framed fibred clusters.
 
 Vertices are ordinary ambient-isotopy classes of compact oriented componentwise incompressible spanning systems with no closed components, using each actual labelled boundary torus once. Disconnected surfaces and arbitrary genus are allowed; boundaries move on their own tori. $`X`$ uses minimum width one of **whole open complements** in the one total-linking cyclic cover, then flag completion. $`Y`$ uses simultaneous geometric disjointness of whole representatives, with no flag completion inserted in its definition. The actual framed spanning curves and all conventions are in [the main theorem](proof/main-theorem.md).
 
-The first arrow is the mathematical comparison [CW, Part 7, Theorem D], fixed at commit `f6f44253f2ed539a74bf4cfdc99fed299e386546` in [the public reference](https://github.com/iamwangxi/apex-p01-seifert-fibred-links/blob/f6f44253f2ed539a74bf4cfdc99fed299e386546/proof/part7.md#1-objects-and-statements). The three proof pages check its non-splitness, vertex and peripheral hypotheses. The comparison alone does not assert contractibility. The concatenated deformation fixes $`MS(L)`$ throughout.
+The first arrow is the mathematical comparison [CW, Part 7, Theorem D], fixed at commit `f6f44253f2ed539a74bf4cfdc99fed299e386546` in [the public reference](https://github.com/iamwangxi/apex-p01-seifert-fibred-links/blob/f6f44253f2ed539a74bf4cfdc99fed299e386546/proof/part7.md#1-objects-and-statements). The four proof pages check its non-splitness, vertex and peripheral hypotheses. The comparison alone does not assert contractibility. The concatenated deformation fixes $`MS(L)`$ throughout.
 
 ## Relation to the competition paper
 
@@ -43,15 +44,15 @@ Python 3.8 or later, standard library only. From the repository root:
 python3 -B scripts/verify_package.py
 ```
 
-This **read-only** command first checks the existing `MANIFEST.sha256`, actually reruns all eleven diagnostic implementations against their saved deterministic outputs, and checks the manifest again. It never repairs evidence before checking it. To rerun just the computations use `python3 -B scripts/run_all.py`. Individual diagnostic commands take `--check`; omitting it regenerates their sibling output files in `scripts/`. Manifest generation is a separate packaging operation. [The computation guide](scripts/README.md) gives ranges and evidence limits.
+This **read-only** command first checks the existing `MANIFEST.sha256`, actually reruns all thirteen diagnostic implementations against their saved deterministic outputs, and checks the manifest again. It never repairs evidence before checking it. To rerun just the computations use `python3 -B scripts/run_all.py`. Individual diagnostic commands take `--check`; omitting it regenerates their sibling output files in `scripts/`. Manifest generation is a separate packaging operation. [The computation guide](scripts/README.md) gives ranges and evidence limits.
 
-General Montesinos/arborescent companions, balanced arbitrary fibred companions outside the recursive class, and nonzero framings outside the two-bridge theorem remain uncovered. See [scope](proof/scope.md).
+For arbitrary balanced zero-framed fibred clusters, Theorem C gives a strong retraction onto the full separating-companion subcomplex. Its contractibility for four or more components outside the proved subclasses remains open here; disconnected and shared-component separating vertices are retained. General Montesinos/arborescent companions outside the proved recursive or fibred ranges are also uncovered. See [scope](proof/scope.md).
 
 ## AI disclosure and review status
 
 **Status: accepted after one fresh-context AI adversarial review of each source argument.** [The review record](sources/review-status.md) identifies the source manuscripts and reviews by SHA-256 and specifies the incorporated repairs.
 
-GPT-6.1 Sol, in OpenAI Codex under human direction, developed the two-bridge cyclic, zero-framed-cluster and integer-framed arguments, computations and integration. Separate fresh GPT-6.1 Sol contexts performed the recorded adversarial reviews. **GPT-6 Astra wrote the recursive-class and arbitrary-fibred-companion manuscript**, in addition to advising on direction and scope. Claude planned and reviewed parts of the earlier two-parallel work and checked sources. This integration incorporates the supplied whole-system purity repair and stationary-event conventions. It received local consistency and diagnostic checks; no further fresh-context integration review, human expert certification or proof-assistant certification is claimed.
+GPT-6.1 Sol, in OpenAI Codex under human direction, developed the two-bridge cyclic, zero-framed-cluster and integer-framed arguments, computations and integration, including incorporation of the reviewed framed recursive/fibred extension. Separate fresh GPT-6.1 Sol contexts performed the recorded adversarial reviews. **GPT-6 Astra wrote the preceding zero-framed recursive-class and nonbalanced fibred-companion manuscript**, in addition to advising on direction and scope. Claude planned and reviewed parts of the earlier two-parallel work and checked sources. This integration incorporates the supplied whole-system purity repair and stationary-event conventions, together with the reviewed HT plumbing-parameter terminology correction. It received local consistency and diagnostic checks; no further fresh-context integration review, human expert certification or proof-assistant certification is claimed.
 
 ## License
 

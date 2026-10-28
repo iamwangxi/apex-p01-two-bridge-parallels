@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run all eleven diagnostics read-only. No generation or outside-package I/O."""
+"""Run all thirteen diagnostics read-only. No generation or outside-package I/O."""
 from pathlib import Path
 import subprocess
 import sys
@@ -11,6 +11,7 @@ COMMANDS = (
     'check_zero_framed_clusters.py', 'check_zero_framed_independent.py',
     'check_framed_clusters.py', 'check_framed_independent.py',
     'check_recursive_systems.py', 'check_recursive_independent.py',
+    'check_recursive_framed.py', 'check_recursive_framed_independent.py',
 )
 
 
@@ -23,7 +24,7 @@ def run_all():
             print(result.stderr, end='', file=sys.stderr)
             raise SystemExit(result.returncode)
         print('PASS ' + name, flush=True)
-    print('PASS all 11 deterministic read-only diagnostic replays')
+    print('PASS all 13 deterministic read-only diagnostic replays')
 
 
 if __name__ == '__main__':
