@@ -1,6 +1,8 @@
-# Completed general reduction and remaining work
+# Detailed two-parallel reduction and remaining scope
 
-[Contents](../README.md) · [Universal theorem](main-theorem.md) · [Scope](scope.md)
+[Contents](../README.md) · [Main theorem](main-theorem.md) · [Scope](scope.md)
+
+The carrier reductions in this page concern **two oppositely oriented zero-framed parallels**. The main theorem and three cluster proof pages establish the wider framed, recursive and nonzero-orientation fibred ranges. The two-terminal exclusion below is not applied to larger clusters.
 
 Contractibility outside $`(P)`$ is now proved for every nontrivial two-bridge companion, not deferred to a component-order or return hypothesis. The general carrier reduction is the decomposition in Theorem 1.2, proved in Theorem 12.4. Its component partitions and orientability are [§13](assembly-obstruction.md), its complete bounded move orbits are [§14](bounded-parameters.md), and the coupled joint order, allowable systems, odd-band labels and integer edge test are [§12.1–12.4](band-heights.md). The [general return lemma](boundary-returns.md) and [finite contraction](finite-contraction.md) close the remaining interfaces.
 
@@ -10,4 +12,8 @@ At $`12/29`$, the carrier $`1+[-2,-3,3,2]`$ genuinely carries the essential orie
 
 Three separate tasks remain. The all-even base has an exact finite geometric equality and adjacency test, including marked product recognition, but no closed integer-only quotient, vertex count or arithmetic edge formula is supplied. Larger-boundary companion systems that cannot contribute global vertices have no full classification here of their oriented return stabilizers; their component partitions, genera and unoriented HT types are supplied. Finally no proof-assistant formalization or software implementation of three-dimensional marked-product recognition is supplied. None is a premise left open in Theorem 12.4.
 
+The original geometric complex is also settled for this family: [Corollary 12.5](main-theorem.md) combines the cyclic contraction with the component-wall strong deformation retraction [CW, Part 7, Theorem D]. [Section 19](geometric-comparison.md) verifies non-splitness, the common full vertex set and the Sakuma/Banks inputs. No further geometric comparison premise is deferred.
+
 The limited literature comparison and the unread priority lead are recorded in [scope](scope.md). Whether the HT p.230 counting aside has a published clarification or erratum was not checked online; the proof does not use that aside.
+
+Beyond the main theorem, general Montesinos/arborescent companions, balanced arbitrary fibred companions outside the recursive class, and nonzero framings outside the two-bridge class remain open in this package. The exact whole-system and rooted-chamber interfaces missing for a general Montesinos extension are listed in [the recursive proof, §11.2](recursive-and-fibred.md).

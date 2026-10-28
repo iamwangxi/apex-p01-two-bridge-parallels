@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "counts": {
+    "reflection_systems": 1079,
+    "component_deletions": 2886,
+    "expanded_cables": 1684,
+    "expanded_sums": 3213,
+    "cable_root_gaps": 27302
+  },
+  "verified_HT_cable_example": {
+    "inner_sheets": 8,
+    "outer_sheets": 4,
+    "outer_partition": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "genus_per_outer_component": 13
+  },
+  "scope": "Finite arithmetic diagnostics only; no isotopy, essentiality, completeness or continuity certification."
+}

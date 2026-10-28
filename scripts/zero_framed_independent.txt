@@ -1,0 +1,186 @@
+{"examples": {"continued_fraction": "29/137", "admissible_expansions": 14, "zero_slope_expansions": 4, "examples": [{"N": 8, "folds": [7, 3], "orbits": [[0, 3, 4, 7], [1, 2, 5, 6]], "large_heights": [[1, 0, 1], [0, 0, 1]], "piece_genus": 9, "initial_genus": 19, "selected_chambers": [0], "closure_states": 1, "closed_pattern_circles": 0, "retained_pieces": [1], "after_first_genus": 9, "assembly_cycle_rank": 1, "final_actual_pairs": [[0, 2], [1, 3]]}, {"N": 16, "folds": [15, 7], "orbits": [[0, 7, 8, 15], [1, 6, 9, 14], [2, 5, 10, 13], [3, 4, 11, 12]], "large_heights": [[1, 0, 1], [1, 0, 1], [1, 0, 1], [0, 0, 1]], "piece_genus": 9, "initial_genus": 39, "selected_chambers": [0, 3], "closure_states": 2, "closed_pattern_circles": 2, "retained_pieces": [1], "after_first_genus": 9, "assembly_cycle_rank": 3, "final_actual_pairs": [[0, 1], [2, 3]]}]}}
+{"folds": {"max_N": 64, "fold_tuples": 55120, "component_orientability_tests": 63152}}
+{"plumbing": {"raw_parameter_tuples": 79224, "nonempty_subsystems": 427998, "sheet_counts": [2, 4, 6, 8]}}
+{"closures": {"partial_noncrossing_patterns": 254412, "essential_patterns_before_orientation": 2074, "oriented_legal_assemblies": 1004, "closure_states": 1278, "interior_repairs": 180, "closed_Q_outputs": 24, "strict_first_parents": 1004}}
+{"two_colours": {"legal_two_colour_diagrams": 296, "relative_closure_states": 344, "relative_interior_repairs": 4}}
+{"envelopes": {"rotation_checks": 20028, "profiles": 20028, "interior_band_samples": 425004, "monotone_packet_merges": 77410, "zero_band_face_checks": 16064}}
+{
+  "scope": "Finite exact combinatorics; no topological or isotopy certification.",
+  "quick": false,
+  "examples": {
+    "continued_fraction": "29/137",
+    "admissible_expansions": 14,
+    "zero_slope_expansions": 4,
+    "examples": [
+      {
+        "N": 8,
+        "folds": [
+          7,
+          3
+        ],
+        "orbits": [
+          [
+            0,
+            3,
+            4,
+            7
+          ],
+          [
+            1,
+            2,
+            5,
+            6
+          ]
+        ],
+        "large_heights": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "piece_genus": 9,
+        "initial_genus": 19,
+        "selected_chambers": [
+          0
+        ],
+        "closure_states": 1,
+        "closed_pattern_circles": 0,
+        "retained_pieces": [
+          1
+        ],
+        "after_first_genus": 9,
+        "assembly_cycle_rank": 1,
+        "final_actual_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "N": 16,
+        "folds": [
+          15,
+          7
+        ],
+        "orbits": [
+          [
+            0,
+            7,
+            8,
+            15
+          ],
+          [
+            1,
+            6,
+            9,
+            14
+          ],
+          [
+            2,
+            5,
+            10,
+            13
+          ],
+          [
+            3,
+            4,
+            11,
+            12
+          ]
+        ],
+        "large_heights": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "piece_genus": 9,
+        "initial_genus": 39,
+        "selected_chambers": [
+          0,
+          3
+        ],
+        "closure_states": 2,
+        "closed_pattern_circles": 2,
+        "retained_pieces": [
+          1
+        ],
+        "after_first_genus": 9,
+        "assembly_cycle_rank": 3,
+        "final_actual_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ]
+  },
+  "folds": {
+    "max_N": 64,
+    "fold_tuples": 55120,
+    "component_orientability_tests": 63152
+  },
+  "plumbing": {
+    "raw_parameter_tuples": 79224,
+    "nonempty_subsystems": 427998,
+    "sheet_counts": [
+      2,
+      4,
+      6,
+      8
+    ]
+  },
+  "closures": {
+    "partial_noncrossing_patterns": 254412,
+    "essential_patterns_before_orientation": 2074,
+    "oriented_legal_assemblies": 1004,
+    "closure_states": 1278,
+    "interior_repairs": 180,
+    "closed_Q_outputs": 24,
+    "strict_first_parents": 1004
+  },
+  "two_colours": {
+    "legal_two_colour_diagrams": 296,
+    "relative_closure_states": 344,
+    "relative_interior_repairs": 4
+  },
+  "envelopes": {
+    "rotation_checks": 20028,
+    "profiles": 20028,
+    "interior_band_samples": 425004,
+    "monotone_packet_merges": 77410,
+    "zero_band_face_checks": 16064
+  }
+}

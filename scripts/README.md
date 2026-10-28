@@ -5,14 +5,12 @@
 Python 3.8 or later, standard library only. From the repository root run:
 
 ```sh
-python3 -B scripts/check.py --check
-python3 -B scripts/check_general.py --check
-python3 -B scripts/check_single_odd.py --check
-python3 -B scripts/check_coupled_single.py --check
-python3 -B scripts/check_multiple_odd.py --check
+python3 -B scripts/verify_package.py
+# Computations alone, without the manifest check:
+python3 -B scripts/run_all.py
 ```
 
-Each command recomputes and compares the saved JSON without writing. Omit `--check` to regenerate the outputs listed below. Every output is a sibling file in `scripts/`, resolved relative to the script rather than the working directory. `diagnostic_io.py` restricts new outputs to that directory and implements replay comparison; only nondeterministic `elapsed_seconds` is excluded from equality. Script hashes and mathematical data are checked. No network or third-party dependencies are used.
+Each individual command with `--check` recomputes and compares its saved JSON or stdout snapshot without writing. The all-in-one verifier validates the **existing** manifest before running the eleven commands and again afterwards. It never regenerates evidence during acceptance. Omit `--check` to regenerate the outputs listed below. Every output is a sibling file in `scripts/`, resolved relative to the script rather than the working directory. `diagnostic_io.py` restricts new outputs to that directory and implements replay comparison; all saved values and stdout are deterministic, with no timestamps or elapsed-time fields. No comparison field is ignored. Script hashes and mathematical data are checked. No network or third-party dependencies are used.
 
 ## Author's diagnostics
 
@@ -37,3 +35,22 @@ Output provenance names only public files in this repository. Source-review manu
 ## Evidence boundary
 
 All recursion uses exact rational arithmetic and strictly decreasing tail denominators. The three infinite families have symbolic all-parameter exhaustion proofs in the text; finite sample counts are not extrapolated. Likewise the local permutation's three-dimensional interpretation, full-system isotopy and return arguments, actual cyclic-edge lifting and universal contraction are mathematical proofs. These scripts do not implement geometric marked-product recognition or proof-assistant certification. Their independence refers to the two mathematical implementations, not to an additional review performed during packaging.
+
+## Cluster diagnostics
+
+Six additional implementations retain their exact arithmetic routines and finite ranges; source-manuscript hash checks were moved to the public [review fingerprint record](../sources/review-status.json), so no diagnostic reads a private source. The author and independent implementations remain separate. All outputs below are sibling `.txt` snapshots compared byte for byte by `exact_replay.py`; omitting `--check` regenerates only that snapshot.
+
+- `check_zero_framed_clusters.py`: `zero_framed_clusters.txt`; 1,496 even-sheet fold systems, 2,046 signed chamber words, 6,005 rational envelopes, and the genus 19 and 39 nonparallel four-boundary examples.
+- `check_zero_framed_independent.py`: `zero_framed_independent.txt`; independently reconstructs HT interval permutations and restricted rectangles, one-sided closures, two-colour barriers, rational envelopes and both examples. The default uses the full finite ranges; `--quick` is not a public replay option.
+- `check_framed_clusters.py`: `framed_clusters.txt`; actual peripheral equations and horizontal covering arithmetic for $`1\le n\le9`$, $`-8\le f\le8`$, all signs, knot genera 1–4; framed normal tracks, odd folds through 40 sheets, and reduced rational knots with odd denominator at most 81. It checks the $`7/19`$ slopes and the $`4/15`$ nonpoint arithmetic.
+- `check_framed_independent.py`: `framed_independent.txt`; complete bounded continuants through denominator 101, actual horizontal monodromy permutations, ordinary return displacement arithmetic, sloped rectangles, point-criterion move orbits and explicit odd-length/nonproduct repairs. It imports no author's mathematical module.
+- `check_recursive_systems.py`: `recursive_systems.txt`; 1,079 reflection systems, 2,886 whole-component deletions, 1,684 expanded cable systems, 3,213 expanded sums, 27,302 cable root gaps, and the actual winding-two HT example with genus 13 per piece.
+- `check_recursive_independent.py`: `recursive_independent.txt`; 29,979 raw HT parameter boxes, 3,600 expanded sums, 1,800 cable systems, 720 alternating nested systems, 88,828 component restrictions and 365,532 retained squares, as well as primitive peripheral lattice classes and opposite internal torus slopes. A fixed random seed selects the recorded finite samples; it does not appear as a timestamp. The expanded graph is built before comparison with the reflection quotient.
+
+The exact replay snapshots give all counts and bounds. No new script imports another new script's mathematical routines. Only the shared stdout-comparison helper is imported. Code and result reads/writes remain inside this package; `-B` prevents bytecode-cache creation. There are no network calls or third-party packages.
+
+## Integrity and generation are separate
+
+`verify_package.py` checks manifest syntax, duplicate/unsafe entries, exact file coverage and SHA-256 **before** executing `run_all.py`. On a mismatch it exits without rewriting the manifest or any saved result. `run_all.py` actually executes all eleven `--check` commands; it does not trust an earlier PASS record. After any intentional generation, rebuild the manifest separately outside the repository, excluding `.DS_Store` and the manifest itself, then copy it into place. Acceptance is read-only.
+
+The fibre-branch repair is a geometric proof in §10 of [the recursive/fibred page](../proof/recursive-and-fibred.md). No finite script claims to repair an isotopy-descent gap or prove its product lemma.

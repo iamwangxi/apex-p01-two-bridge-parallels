@@ -1,0 +1,59 @@
+{
+  "status": "Accepted after one fresh-context AI adversarial review of each source argument; all specified proof repairs incorporated.",
+  "status_zh": "经一路全新上下文 AI 对抗复核成立",
+  "review_counts": {
+    "zero_framed": {
+      "fatal": 0,
+      "repairable": 0,
+      "presentation": 1
+    },
+    "integer_framed": {
+      "fatal": 0,
+      "repairable": 0,
+      "presentation": 0
+    },
+    "recursive_and_fibred": {
+      "fatal": 0,
+      "repairable": 1,
+      "presentation": 1
+    }
+  },
+  "sources": [
+    {
+      "manuscript": "Zero-framed clusters",
+      "manuscript_sha256": "71bbca1ee8de5e973302a56828c12c25d10a2cd9cd9fbc7883c762b1beaacd31",
+      "fresh_context_adversarial_review_sha256": "d23730157de8b7fa62d39a0c4fa46a082bec176ab0e1ab10317ba314e0582382",
+      "integrated_proof": "proof/zero-framed-clusters.md",
+      "integrated_proof_sha256": "e5f691c476ce881ff8715ad5404f43b3c23632b7d37fb13dabc8c6e79cec8315",
+      "status": "Accepted; stationary-event order specified",
+      "author_diagnostic_sha256": "6afb95069f00fe624a27636c847aec566d1456958fa1738aa6a81c697ad4419a",
+      "independent_diagnostic_sha256": "377c28c64f349efc67a65b1767dbed693876e5af7b6c14a19868d4d8ea1c5355"
+    },
+    {
+      "manuscript": "Integer-framed clusters",
+      "manuscript_sha256": "3535b449c330667522c15e9dc633bb1fae44a8f5b1534bad1a8f273e3aee1c43",
+      "fresh_context_adversarial_review_sha256": "13243b52d65384a183e355e07f959b6677950b3ceeae3d62fa4a0fd5902ebbc3",
+      "integrated_proof": "proof/framed-clusters.md",
+      "integrated_proof_sha256": "706a390f97422bbc8a1712b5b4476ce3f71261077c0afe00222196f4b44748d1",
+      "status": "Accepted",
+      "author_diagnostic_sha256": "897871136efdbfab4810370ff77e2ce5e04564115a9765f774c2a723c667b5b9",
+      "independent_diagnostic_sha256": "ab05a3bdbc835b603e63f2390b7eec57c6dc750719159646b0ab32a06e162748"
+    },
+    {
+      "manuscript": "Recursive and fibred companions",
+      "manuscript_sha256": "c5a1a493074009ecdcc35551a66c8185ea4b90617d67fd4aa601548883a79e94",
+      "fresh_context_adversarial_review_sha256": "6a7cdb47b37a1347db8bd7809e0fe2b0878057c09b18186799a36cf645cf11b2",
+      "integrated_proof": "proof/recursive-and-fibred.md",
+      "integrated_proof_sha256": "34eee8aaefb2a91e1dd3497f266d53b0c3b74812c20ff05656ae638a8fbc9c49",
+      "status": "Accepted with supplied whole-system purity repair and stationary-event heights incorporated",
+      "author_diagnostic_sha256": "33a708c0e3fa5476ecf6f5b2d07d4917095e2db71f4d0f0a39bd5ba0b7b13ed7",
+      "independent_diagnostic_sha256": "d242d3028b464df9b4473673b1c4ce548b53f063c013e17fbce2aa6f7363cc6c",
+      "supplied_purity_repair_sha256": "02df62f8929a153aa34f691148a230b1f81a6113d32d16eefc9a7e261b2dd218"
+    }
+  ],
+  "base_submission": {
+    "manuscript_sha256": "dc27bd2130b2d1b2f4dc030cb62c8b72a3d285616be1a59641bb6f840c736d0d",
+    "fresh_context_adversarial_review_sha256": "4e470e399d841f8bf2cddf73757e9133b73ac5741a706d69990a8438e487eca3"
+  },
+  "boundary": "Source arguments received the recorded reviews. Integration and supplied repairs were checked locally; no additional fresh-context integration review, human expert certification or proof-assistant certification is claimed."
+}

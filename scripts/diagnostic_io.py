@@ -14,10 +14,6 @@ def save_json(path, result):
     if '--check' in sys.argv[1:]:
         old = json.loads(path.read_text(encoding='utf-8'))
         new = json.loads(text)
-        # Timing is reported, but is not a mathematical invariant.
-        if isinstance(old, dict):
-            old.pop('elapsed_seconds', None)
-            new.pop('elapsed_seconds', None)
         assert old == new, 'saved diagnostics do not match: ' + path.name
     else:
         path.write_text(text, encoding='utf-8')

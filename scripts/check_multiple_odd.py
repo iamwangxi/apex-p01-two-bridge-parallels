@@ -14,7 +14,6 @@ from itertools import product, combinations
 from math import gcd, floor, ceil
 from pathlib import Path
 import json
-import time
 
 HERE = Path(__file__).resolve().parent
 BASE = HERE.parent
@@ -509,7 +508,6 @@ def larger_examples():
 
 
 def main():
-    started = time.time()
     watched = ['proof/band-heights.md', 'proof/assembly-obstruction.md',
                'proof/finite-contraction.md', 'proof/main-theorem.md']
     before = {name: sha256((BASE/name).read_bytes()).hexdigest() for name in watched}
@@ -532,11 +530,10 @@ def main():
     after = {name: sha256((BASE/name).read_bytes()).hexdigest() for name in watched}
     assert before == after
     result['source_files_unchanged'] = True
-    result['elapsed_seconds'] = round(time.time()-started, 3)
     result['script_sha256'] = sha256(Path(__file__).read_bytes()).hexdigest()
     result['status'] = 'all independent finite checks passed'
     save_json(HERE/'multiple_odd_checks.json', result)
-    print(result['status'], result['elapsed_seconds'], flush=True)
+    print(result['status'], flush=True)
 
 
 if __name__ == '__main__':

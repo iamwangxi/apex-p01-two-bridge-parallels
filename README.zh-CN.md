@@ -1,62 +1,56 @@
-# 二桥结零框架两平行链环的循环复形可缩性
+# 平行簇的不可压生成曲面复形
 
-对每个非平凡二桥结，其反向定向零框架两平行链环的完整循环距离旗复形均可缩。复形由全偶锥与有限多个按奇载体、奇带标签划分的可缩部分在环带锥顶相接而成。覆盖全部亏格和扭转值，允许不连通生成曲面。
+对每个非平凡二桥结，**任意整数框架、任意正条数、任意取向的平行簇**，其完整循环复形 $`X(L)`$ 与原论文几何不交复形 $`Y(L)=IS(L)`$ 都强形变收缩到 $`MS(L)`$，从而可缩。同一结论还覆盖：由非平凡二桥结、环面结经有限次连通和与 cable 得到的结的**零框架**平行簇，以及任意非平凡纤维结在取向和非零时的**零框架**平行簇。
 
-[English](README.md) · [对象与陈述](proof/objects.md) · [主定理 12.4 与证明图](proof/main-theorem.md) · [文献版本](sources/bibliography.md) · [范围](proof/scope.md)
+[English](README.md) · [主定理与一般对象](proof/main-theorem.md) · [范围](proof/scope.md) · [文献版本和页码](sources/bibliography.md) · [复核状态及 SHA-256](sources/review-status.md)
 
-## 对象与结论
+## 定理与证明
 
-顶点为定向、逐分量不可压、无闭分量的生成曲面的环境同痕类，边界可在有标签的实际边界环面移动。边由完整开补集在循环覆盖中的最小宽度为一确定，再取旗完成。本结论针对明确的循环距离对象，不宣称原始几何不交复形的同一结论。
-
-主定理 12.4 给出
+设 $`L_f(K;\epsilon_1,\ldots,\epsilon_n)`$ 为斜率 $`\lambda+f\mu`$ 的 $`n\ge1`$ 条带标签平行分量，取向和为 $`d=\sum_i\epsilon_i`$。上述范围内有
 
 ```math
-X(L)=\mathcal B_E\cup_{\{a\}}
-\bigcup_{\beta\in O(C)}\ \bigcup_{\mathbf z\in Z_\beta}X_{\beta,\mathbf z},
-\qquad \mathcal B_E=a*Y_E.
+X(L)\subseteq Y(L),\qquad
+|Y(L)|\searrow |X(L)|\searrow |MS(L)|.
 ```
 
-$`a`$ 为标准环带类；不同部分除根外无交点、无跨边。全偶底 $`Y_E`$ 不必是一个点，其同痕与邻接由命题 4.2 的有限几何判据处理。定理 13.2 证明，多边界本质伴随片虽真实存在，却不能出现在任何合法定向全局顶点中。§12 的累计带高保留多个参数块的耦合，给出完整整数顶点与边判据；按奇带标签分区后，定理 12.3 在每个有限输入的有限扩充内逐次作邻域支配收缩。
+两箭头都是强形变收缩；$`MS(L)`$ 指 Przytycki–Schultens 的 taut **循环**复形。二桥结分支若 $`fd\ne0`$，更有 $`X=Y=MS(L)`$，但不一定只有一个顶点。$`K_{4/15}`$ 的同向、框架一、两条平行簇有不同的亏格二顶点。
 
-**条件 (P) 保留为更明确的结构推论 1.3：** 每个非全偶零斜率 HT 展开恰有一个系数绝对值大于二时，所有奇载体部分都是在 $`a`$ 处相接的 Farey 树。全偶载体不受限制，奇零载体可以不唯一。树的非根顶点为既约奇分子分数 $`p/k`$，边满足 $`\lvert pk'-p'k\rvert=1`$。
+- [零框架任意平行簇](proof/zero-framed-clusters.md)：单边界片的圆周上包络；非平行、多边界系统的腔室路径；普通根、完整闭包与逐面相容棱柱。
+- [任意整数框架](proof/framed-clusters.md)：含链接修正的实际生成斜率、非零纤维取值、平衡非零斜率、普通横向返回，以及环面结的环带例外。
+- [递归类与纤维结](proof/recursive-and-fibred.md)：整个系统的反射结构在连通和、取缆下闭合；非零类纤维分支直接紧致提升每个不交分量，只读取边界数和亏格，不下投覆盖空间同痕。
 
-三族无限例均有全参数的符号穷尽证明：
+顶点为紧致、定向、逐分量不可压、无闭分量的生成系统的普通环境同痕类；每个实际带标签边界环面使用一次。允许不连通与任意亏格，边界可在其环面上移动，同痕从恒等开始。$`X`$ 使用一个总链接类覆盖中**整个开补域**的最小宽度一给边，再取旗完成；$`Y`$ 要求完整代表同时不交，定义中不补旗。框架非零时实际边界须含链接修正，详见[主定理](proof/main-theorem.md)。
 
-```math
-C_m=K_{(6m+1)/(16m+3)},\quad m\ge1;
-\qquad D_m=K_{8m/(20m-1)},\quad m\ge2;
-\qquad B_m=K_{(8m^2+2m+2)/(16m^2+8m+5)},\quad m\ge1.
-```
+第一箭头引用公开数学结果 [CW, Part 7, Theorem D](https://github.com/iamwangxi/apex-p01-seifert-fibred-links/blob/f6f44253f2ed539a74bf4cfdc99fed299e386546/proof/part7.md#1-objects-and-statements)，固定提交 `f6f44253f2ed539a74bf4cfdc99fed299e386546`。各证明页核对非分裂性、完整顶点、覆盖和边界约定。该比较本身不提供可缩性；先把 $`X`$ 收缩到已识别的 taut 终点，再使用 PS Theorem 1.1。拼接全程固定 $`MS(L)`$。
 
-$`C_m`$ 满足 (P)，但具有不与环带相邻的顶点。$`D_2=K_{16/39}`$ 的奇部分为二维三角化圆盘体系：标记分母 $`k`$ 上有 $`4k+1`$ 个顶点组成的路径，根边上有四三角形扇，非根边上有 $`4(k+k')`$ 个三角形。$`B_1=K_{12/29}`$ 的奇部分为三棵 Farey 树在根处相接。
+## 与原论文的关系
 
-## 与目标论文的关系
+目标为 Apex Intelligence 官方比赛版本 *Contractibility of the complex of incompressible Seifert surfaces: the knot case of Kakimizu's problem*，2026 年 9 月 11 日，48 页。[公开 PDF](https://math.apexin.net/papers/seifert-surfaces.pdf)。SHA-256：`34f17d7d99780d3fd3626d9e5d7b35d6aa76661c404f191b6df341b300c0c06f`。
 
-目标为 Apex Intelligence 的官方比赛版本 *Contractibility of the complex of incompressible Seifert surfaces: the knot case of Kakimizu's problem*，2026 年 9 月 11 日，48 页。[公开 PDF](https://math.apexin.net/papers/seifert-surfaces.pdf)。SHA-256：`34f17d7d99780d3fd3626d9e5d7b35d6aa76661c404f191b6df341b300c0c06f`。
+印刷第 2 页的 Theorems A、D 处理结和满足链接不可分解条件的链环。至少两条零框架平行簇的两两链接数为零，超出该链接条件。论文指出，一般链环的不同顶点可共享整分量类，使 Lemma 4.9 的前提失效。本结果允许不连通生成系统，并得到原始几何复形的结论。一条平行分量、部分非零框架情形与原论文范围重合，不把所有参数都说成新增情形。CW 的 Theorem D 与原论文同号定理不同。
 
-印刷第 2 页的 Theorems A、D 分别处理结及满足链接不可分解条件的链环。本题两分量链接数为零，处于 Theorem D 范围之外。该页指出一般链环中不同顶点可共享分量类，使 Lemma 4.9 的不交前提失效。本仓库允许不连通生成系统，独立证明指定循环复形的边与单形关系。
+## 两条反向平行的精细结构
 
-## 阅读与复跑
+原有[对象页](proof/objects.md)、[定理 12.4–12.5](proof/main-theorem.md)及后续带高、Farey 树、三角化圆盘结构，专门描述**两条反向、零框架平行**的 $`X`$。三族无限例有[全参数符号证明](proof/infinite-family.md)。两终端障碍排除的多边界伴随片可以出现在更多条数的平行簇；任意簇证明保留并处理这些片。精细结构不被外推为所有 $`Y`$ 单形的分类。
 
-先读[对象与陈述](proof/objects.md)和[主定理证明图](proof/main-theorem.md)，再读[累计带高](proof/band-heights.md)、[有限收缩](proof/finite-contraction.md)与[三族无限例](proof/infinite-family.md)。本质装配、完整补集、载体纯性、返回与标记弧比较的全部依赖均在仓库内，具体编号及文件见英文导览。HT 印刷 p.230 聚合计数旁述与完整移动定理的冲突见[书目 Remark](sources/bibliography.md)；本证明直接使用 Theorem 1(e) 并证明有界轨道，不用该旁述。
+## 复跑与范围边界
 
 Python 3.8 及以上，仅标准库。在仓库根目录运行：
 
 ```sh
-python3 -B scripts/check.py --check
-python3 -B scripts/check_general.py --check
-python3 -B scripts/check_single_odd.py --check
-python3 -B scripts/check_coupled_single.py --check
-python3 -B scripts/check_multiple_odd.py --check
-shasum -a 256 -c MANIFEST.sha256
+python3 -B scripts/verify_package.py
 ```
 
-`--check` 只重算比对，不写文件；去掉该参数只生成 `scripts/` 内相邻 JSON。两路复核的独立实现与删点证书均已纳入。[计算说明](scripts/README.md)列出有限范围。算术核验不代替几何证明和无限情形。尚未完成的独立事项为：全偶部分整数闭式商、不贡献顶点的多边界系统取向返回稳定子、形式化及三维产品识别软件。一般二桥结可缩性本身已证明。
+该入口**只读**：先核对现有清单，再实际执行全部十一套诊断并比对确定性结果（JSON 报告比较全部字段，文本快照逐字比较，清单核对保存文件的字节），最后再验清单。它不在核验前修复清单。仅运行算术诊断可用 `python3 -B scripts/run_all.py`。单项诊断加 `--check` 只读；去掉参数仅生成 `scripts/` 内相邻结果。清单生成另行执行。[诊断说明](scripts/README.md)列出范围与证据边界。
 
-## AI 声明
+未覆盖一般 Montesinos/arborescent、递归类之外任意纤维结的平衡情形，以及二桥分支之外的非零框架递归类或任意纤维结。不宣称任意链环可缩。全偶底整数闭式商、三维产品识别软件与形式化也未完成。
 
-GPT-6.1 Sol, in OpenAI Codex under human direction, developed the proof, ran the computations where applicable, and drafted this text; separate GPT-6.1 Sol sessions in fresh contexts performed adversarial reviews and a novelty check against the cited literature. Claude planned the work, checked key steps against the sources, and reviewed and edited the final text. GPT-6 Astra, also in OpenAI Codex, advised on research direction and submission scope. No human expert has certified the work.
+## AI 声明与复核状态
+
+**状态：经一路全新上下文 AI 对抗复核成立。** [复核记录](sources/review-status.md)列出各源稿、复核和补证的 SHA-256，区分源稿与修补后证明页。
+
+GPT-6.1 Sol 在人类指导下完成二桥结循环证明、零框架任意簇、整数框架分支、计算和本轮整合；另由全新 GPT-6.1 Sol 上下文完成所记录的对抗复核。**递归类与任意纤维结一稿由 GPT-6 Astra 完成**，Astra 也提供过方向建议。Claude 参与早期两平行工作的规划、文献核对和审阅。整合已落实整个系统纯性的补证、静止事件排序及高度。本轮进行了本地一致性和诊断检查，没有另起全新上下文复核整合包；无人类专家认证或形式化证明。
 
 ## 许可
 
-原创文字与计算数据采用 CC BY 4.0；`scripts/` 可执行代码采用 MIT License。见 [LICENSE](LICENSE)。外部文献仅引用，不打包。
+原创文字与计算数据采用 CC BY 4.0；可执行代码采用 MIT License。见 [LICENSE](LICENSE)。外部文献仅引用，不打包。

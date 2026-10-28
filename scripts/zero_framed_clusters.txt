@@ -1,0 +1,6 @@
+PASS folds/path walks and subsystem order: 1496 tuples
+PASS disjoint incident-piece sets of one-sided chambers: 2046 words
+PASS circular envelopes, rotation/face invariance, coherent endpoint: 6005 words
+PASS actual nonparallel four-boundary example: K_29/137, genera 19 -> 9 -> annuli
+PASS nonproduct interior closure: bad return (10,11), genera 39 -> 9 -> annuli
+Scope: exact finite arithmetic only; no machine proof of topology.

@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "counts": {
+    "alternating_nested_systems": 720,
+    "expanded_cable_systems": 1800,
+    "expanded_sum_systems": 3600,
+    "integral_child_cable_classes": 422,
+    "integral_child_composing_classes": 4913,
+    "odd_outer_sheet_obstructions": 12049,
+    "oriented_components": 47005,
+    "path_chamber_words": 23417,
+    "primitive_cable_classes": 12586,
+    "primitive_composing_classes": 36111,
+    "raw_HT_parameter_tuples": 29979,
+    "reflecting_systems": 35466,
+    "regular_systems": 635,
+    "restricted_actual_squares": 365532,
+    "selected_child_end_occurrences": 7462,
+    "whole_component_deletions": 88828
+  },
+  "examples": {
+    "HT_winding_two": {
+      "outer_partition": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "chi_per_component": [
+        -26,
+        -26
+      ],
+      "genus_per_component": [
+        13,
+        13
+      ]
+    },
+    "opposite_torus_slopes": {
+      "slope": 0,
+      "outer_partition": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "chi_per_component": [
+        -8
+      ],
+      "genus_per_component": [
+        1
+      ]
+    }
+  },
+  "limit": "Finite signed-graph, component Euler and root-gap diagnostics; no isotopy, essentiality, completeness or continuity certification."
+}

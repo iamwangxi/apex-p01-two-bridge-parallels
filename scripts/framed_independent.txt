@@ -1,0 +1,454 @@
+{
+  "status": "PASS",
+  "carriers": {
+    "max_denominator": 101,
+    "all_continuant_words_including_links": 17298,
+    "knot_inputs": 2106,
+    "knot_carriers": 11588,
+    "positive_genus_cases": 287680,
+    "odd_length_genus_cases": 134656,
+    "K_7_over_19": [
+      [
+        0,
+        [
+          2,
+          -2,
+          -2,
+          -3
+        ],
+        0
+      ],
+      [
+        0,
+        [
+          3,
+          3,
+          -2
+        ],
+        6
+      ],
+      [
+        0,
+        [
+          3,
+          4,
+          2
+        ],
+        10
+      ],
+      [
+        1,
+        [
+          -2,
+          -3,
+          -2,
+          -3
+        ],
+        -4
+      ],
+      [
+        1,
+        [
+          -2,
+          -2,
+          2,
+          -2
+        ],
+        0
+      ],
+      [
+        1,
+        [
+          -2,
+          -2,
+          3,
+          2
+        ],
+        4
+      ]
+    ],
+    "torus_and_mirror_rows": 40
+  },
+  "horizontal": {
+    "peripheral_modes": 9690,
+    "cover_classes": 7416,
+    "global_genus_cases": 29664,
+    "K_4_over_15_pattern": {
+      "sheets": 2,
+      "chi_H": -2,
+      "H_boundary_components": 4,
+      "H_genus": 0,
+      "outer_boundary_cycles": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "outer_return_permutation": [
+        1,
+        0
+      ]
+    }
+  },
+  "sloped_plumbing": {
+    "K_7_over_19_nonzero_carriers": 4,
+    "raw_plumbing_parameter_tuples": 10412,
+    "retained_actual_subsystems": 258008,
+    "observed_connected_arities": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "sheet_counts": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12
+    ]
+  },
+  "point_criterion": {
+    "parameter_boxes": 764,
+    "parameter_vertices": 677396,
+    "K_4_over_15_sheet_count_and_classes": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ]
+  },
+  "normal_motion_arithmetic": {
+    "normal_tracks": 31875,
+    "relative_tether_classes": 21500
+  },
+  "new_odd_length_examples": {
+    "single_odd_slope_10": {
+      "beta": [
+        3,
+        4,
+        2
+      ],
+      "labels": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "companion_orbits": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "restricted_parameters": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "genus_trajectory": [
+        4,
+        2,
+        0
+      ],
+      "last_pairs": [
+        [
+          "n",
+          "p"
+        ]
+      ],
+      "computed_components": [
+        [
+          {
+            "actual_boundaries": [
+              "n",
+              "p"
+            ],
+            "Q_pieces": 2,
+            "chi": -8,
+            "genus": 4
+          }
+        ],
+        [
+          {
+            "actual_boundaries": [
+              "n",
+              "p"
+            ],
+            "Q_pieces": 1,
+            "chi": -4,
+            "genus": 2
+          }
+        ],
+        [
+          {
+            "actual_boundaries": [
+              "n",
+              "p"
+            ],
+            "Q_pieces": 0,
+            "chi": 0,
+            "genus": 0
+          }
+        ]
+      ]
+    },
+    "two_odd_slope_6": {
+      "beta": [
+        3,
+        3,
+        -2
+      ],
+      "labels": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "companion_orbits": [
+        [
+          0,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          5,
+          6
+        ]
+      ],
+      "genus_trajectory": [
+        7,
+        3,
+        0
+      ],
+      "last_pairs": [
+        [
+          "n1",
+          "p2"
+        ],
+        [
+          "n2",
+          "p1"
+        ]
+      ],
+      "computed_components": [
+        [
+          {
+            "actual_boundaries": [
+              "n1",
+              "n2",
+              "p1",
+              "p2"
+            ],
+            "Q_pieces": 2,
+            "chi": -16,
+            "genus": 7
+          }
+        ],
+        [
+          {
+            "actual_boundaries": [
+              "n1",
+              "n2",
+              "p1",
+              "p2"
+            ],
+            "Q_pieces": 1,
+            "chi": -8,
+            "genus": 3
+          }
+        ],
+        [
+          {
+            "actual_boundaries": [
+              "n1",
+              "p2"
+            ],
+            "Q_pieces": 0,
+            "chi": 0,
+            "genus": 0
+          },
+          {
+            "actual_boundaries": [
+              "n2",
+              "p1"
+            ],
+            "Q_pieces": 0,
+            "chi": 0,
+            "genus": 0
+          }
+        ]
+      ]
+    },
+    "slope_10_nonproduct_repair": {
+      "labels": [
+        0,
+        1,
+        2,
+        3,
+        3,
+        2,
+        1,
+        0
+      ],
+      "restricted_parameters": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "nonparallel_faces": [
+        2,
+        3
+      ],
+      "Q_piece_counts": [
+        4,
+        1,
+        0
+      ],
+      "initial_component_genera": [
+        6,
+        2
+      ],
+      "after_repair_component_genera": [
+        2,
+        0
+      ],
+      "closed_pattern_circles_removed": 1,
+      "last_pairs": [
+        [
+          "n1",
+          "p1"
+        ],
+        [
+          "n2",
+          "p2"
+        ]
+      ],
+      "computed_components": [
+        [
+          {
+            "actual_boundaries": [
+              "n1",
+              "p1"
+            ],
+            "Q_pieces": 1,
+            "chi": -4,
+            "genus": 2
+          },
+          {
+            "actual_boundaries": [
+              "n2",
+              "p2"
+            ],
+            "Q_pieces": 3,
+            "chi": -12,
+            "genus": 6
+          }
+        ],
+        [
+          {
+            "actual_boundaries": [
+              "n1",
+              "p1"
+            ],
+            "Q_pieces": 1,
+            "chi": -4,
+            "genus": 2
+          },
+          {
+            "actual_boundaries": [
+              "n2",
+              "p2"
+            ],
+            "Q_pieces": 0,
+            "chi": 0,
+            "genus": 0
+          }
+        ],
+        [
+          {
+            "actual_boundaries": [
+              "n1",
+              "p1"
+            ],
+            "Q_pieces": 0,
+            "chi": 0,
+            "genus": 0
+          },
+          {
+            "actual_boundaries": [
+              "n2",
+              "p2"
+            ],
+            "Q_pieces": 0,
+            "chi": 0,
+            "genus": 0
+          }
+        ]
+      ]
+    }
+  },
+  "scope": "Finite exact arithmetic and explicit permutations only. No certification of isotopy, product confinement, essential assembly, or CW continuity."
+}

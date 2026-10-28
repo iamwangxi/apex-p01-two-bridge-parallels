@@ -1,0 +1,6 @@
+PASS peripheral modes: 17374; horizontal classes: 14784; genus cases: 59136
+PASS framed normal-coordinate tracks: 18081
+PASS odd-fold systems: 3100; inherited subsystem words: 8396
+PASS HT rational inputs: 1356; carriers: 6948; sloped genus cases: 105640
+PASS K_7/19: 6 carriers; K_4/15 nonpoint example arithmetic
+Scope: finite exact algebra only; the topology is proved in the proof pages.
