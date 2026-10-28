@@ -25,7 +25,8 @@ def verify_manifest():
             raise SystemExit('manifest mismatch: ' + name)
         entries[name] = digest
     files = {str(p.relative_to(ROOT)) for p in ROOT.rglob('*')
-             if p.is_file() and p.name not in {'MANIFEST.sha256', '.DS_Store'}}
+             if p.is_file() and p.name not in {'MANIFEST.sha256', '.DS_Store'}
+             and '.git' not in p.relative_to(ROOT).parts}
     if set(entries) != files:
         raise SystemExit('manifest coverage mismatch')
     print('PASS existing manifest: ' + str(len(entries)) + ' files', flush=True)
